@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637940780261984346
-    m_Hash: 3979996139
+      ticks: 637941772220316899
+    m_Hash: 3693497500
   m_LockFileStatus:
     m_FilePath: G:/Coding/Unity/git/BBANG/BBANG_unity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637940780414011009
-    m_Hash: 3809199474
+      ticks: 637941772220346818
+    m_Hash: 1350996409
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
