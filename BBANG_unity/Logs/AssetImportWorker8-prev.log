@@ -1,0 +1,559 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'ko' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\msyang\Desktop\BBANGMAP\BBANG\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+54743
+Successfully changed project path to: C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 846.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   30.0.100.9805
+Initialize mono
+Mono path[0] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012910 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 160.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (161ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016948 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\GITHUB\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\GITHUB\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4433ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (3951ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (727ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (219ms)
+			SetupLoadedEditorAssemblies (2381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (409ms)
+				ProcessInitializeOnLoadAttributes (1732ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (105ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (87ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.6 KB). Loaded Objects now: 3869.
+Memory consumption went from 134.0 MB to 133.9 MB.
+Total: 21.040900 ms (FindLiveObjects: 3.494700 ms CreateObjectMapping: 1.110000 ms MarkObjects: 16.304200 ms  DeleteObjects: 0.130100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19680.102074 seconds.
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_Normal.png
+  artifactKey: Guid(a1dabb66b0b981a409c197c9e773f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_Normal.png using Guid(a1dabb66b0b981a409c197c9e773f7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e729df32b51771bda7d291f72646b445') in 2.783306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JKT_Art/UI/FONT/stage_1.png
+  artifactKey: Guid(e592a89ba8cedc84e97be49be2491b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/FONT/stage_1.png using Guid(e592a89ba8cedc84e97be49be2491b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cda794b6e6027c73a7811e0f2e19ed9') in 2.648439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_MetallicSmoothness.png
+  artifactKey: Guid(32a21508c9991594ba7aeac228b5162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Doors_TVStand_MAT_MetallicSmoothness.png using Guid(32a21508c9991594ba7aeac228b5162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5eaaa79dff25e2284e0887ee903637') in 0.396762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098317 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/eletrcity box 1.png
+  artifactKey: Guid(a4f9875c2001ed845a51d6f704d70c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/eletrcity box 1.png using Guid(a4f9875c2001ed845a51d6f704d70c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdbca6deb411b14f090b84c8173fec7') in 0.491775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062983 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/flower 3 texture 1.png
+  artifactKey: Guid(d79642b217b676342aeda62b8d300328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/flower 3 texture 1.png using Guid(d79642b217b676342aeda62b8d300328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3635bdb5d0e780ce46a61adc9f756f0') in 1.121420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017122 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Hydrant.png
+  artifactKey: Guid(3875a5afc4d220249ad0606268177057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Hydrant.png using Guid(3875a5afc4d220249ad0606268177057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c3babff3da476199acb313693d7ec0') in 0.039468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Simple Vehicle Pack/Textures/cars_albedo_2.tif
+  artifactKey: Guid(7cb8cb42b17248f4a993ba742a595e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Textures/cars_albedo_2.tif using Guid(7cb8cb42b17248f4a993ba742a595e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d2cc2c1c9f9e401c2f8d27ad7ac37b') in 0.211668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014734 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Flower 1 red mix 1.png
+  artifactKey: Guid(a9b624edc80506344b4364c85f135272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Flower 1 red mix 1.png using Guid(a9b624edc80506344b4364c85f135272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc7db462afcd5c677f47d6bd8eb7bc8') in 0.170359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Kitchen Table A.png
+  artifactKey: Guid(9cd5360c1e1b2a04591ee292a53e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Kitchen Table A.png using Guid(9cd5360c1e1b2a04591ee292a53e0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c420916754ca15df1fefc44cbf08a3') in 0.095172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024043 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/lamps/Lamp C.png
+  artifactKey: Guid(05716c1681b91934e8b6f9345bb7909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/lamps/Lamp C.png using Guid(05716c1681b91934e8b6f9345bb7909a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33ffb350badea329774d19b17275834') in 0.026269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/lamps/emission/Lamp B ON emission.png
+  artifactKey: Guid(2cc0d17877f60874f9dbe43892eafa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/lamps/emission/Lamp B ON emission.png using Guid(2cc0d17877f60874f9dbe43892eafa59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a1f9881c566d57fc585119ff371125') in 0.109850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Kitchen Table B.png
+  artifactKey: Guid(6a3d9d2a66c92bc4c9813c8fdb6c5666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Kitchen Table B.png using Guid(6a3d9d2a66c92bc4c9813c8fdb6c5666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69409d046bb44f980c248e66f4e920f') in 0.193320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006567 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Kitchen Sink.png
+  artifactKey: Guid(54620ac06dd104e4da15be8d2c79791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Kitchen Sink.png using Guid(54620ac06dd104e4da15be8d2c79791d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceed8a395338692318529ee1e5a0fce') in 0.061042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/JKT_Art/UI/FONT/stage_2.png
+  artifactKey: Guid(72be7219b96ca314dadcaa14d42249d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/FONT/stage_2.png using Guid(72be7219b96ca314dadcaa14d42249d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7bf638121211edfcf2fbd30ed89d17') in 0.112464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011426 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/lobby table.png
+  artifactKey: Guid(bbdeaf413f98ad34d889316ba0d8ab4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/lobby table.png using Guid(bbdeaf413f98ad34d889316ba0d8ab4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8121fe27103dc65b92546fe1e22b4038') in 0.105181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/drain 3.png
+  artifactKey: Guid(5142c81fd69f86b43a5ae41b9d03d423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/drain 3.png using Guid(5142c81fd69f86b43a5ae41b9d03d423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20040812eef25a47b786fd8c1a290d9') in 0.173196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.099765 seconds.
+  path: Assets/Simple Vehicle Pack/Textures/cars_albedo.tif
+  artifactKey: Guid(3ab13998715565f41826b8e7e94e9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Vehicle Pack/Textures/cars_albedo.tif using Guid(3ab13998715565f41826b8e7e94e9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25f63ecc3c18a10ee94e0febfa39a96') in 0.472798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AmbientOcclusion.png
+  artifactKey: Guid(e7010990b519d84448876b961b3cec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AmbientOcclusion.png using Guid(e7010990b519d84448876b961b3cec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d3663b4db628aa76f1ce6982b7fc8e') in 0.247747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012534 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/File box Blue.png
+  artifactKey: Guid(1b032bd5e07de0c4a8d162b60cec67dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/File box Blue.png using Guid(1b032bd5e07de0c4a8d162b60cec67dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0636d1fdcf19f12579d5cd5193cb03e') in 0.207443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004153 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/lamps/emission/Lamp A ON Emssion.png
+  artifactKey: Guid(89d6b78d62bd7a84c8967f397388cd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/lamps/emission/Lamp A ON Emssion.png using Guid(89d6b78d62bd7a84c8967f397388cd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58caf4c51b8b58818f53eee599484d70') in 0.057301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013189 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Storage box Red.png
+  artifactKey: Guid(aaa7d844d5163b940ac3716e0fa3d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Storage box Red.png using Guid(aaa7d844d5163b940ac3716e0fa3d1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb556a103b1e5baac880dde26d2b8e0b') in 0.347561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052201 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Climb poles.png
+  artifactKey: Guid(7ee0cfab06eec4d41a113d6d99a30e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Climb poles.png using Guid(7ee0cfab06eec4d41a113d6d99a30e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007233f8d21303675da7a8dd0efb209c') in 3.583116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113837 seconds.
+  path: Assets/JKT_Art/UI/Number/number5.png
+  artifactKey: Guid(045d7df6b6ece73459c612be67611149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Number/number5.png using Guid(045d7df6b6ece73459c612be67611149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f140f55d127327f2950554cad9abf') in 0.866216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.193084 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Metal cupboard.png
+  artifactKey: Guid(5ab644e3d81f0e64a978d3ce22b819c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Metal cupboard.png using Guid(5ab644e3d81f0e64a978d3ce22b819c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc5e1ebfb17c229c3b8150dc43864dc') in 1.498858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027491 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/pot_plant_leaf.png
+  artifactKey: Guid(cf21488ffdf03a249b361ac7b5f2d5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/pot_plant_leaf.png using Guid(cf21488ffdf03a249b361ac7b5f2d5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed0b760e0e82e5a825317f39ed76b7a') in 0.348618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003043 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/roof 1.png
+  artifactKey: Guid(1b8cc4e0f14302c49b4fe6e996771c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/roof 1.png using Guid(1b8cc4e0f14302c49b4fe6e996771c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249fa7ce6bda7f498dd8e568938204b') in 0.882341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258647 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/phone booth texture.png
+  artifactKey: Guid(f5055e107bbec9343b74e3438416fa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/phone booth texture.png using Guid(f5055e107bbec9343b74e3438416fa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059104681121a06fcffbedebf592365') in 0.086069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Statue Bear Rough Bronze/Textures/Statue Bear Bronze Metallic.tga
+  artifactKey: Guid(c4e421b31deb76c478902e4e0afe3cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Statue Bear Rough Bronze/Textures/Statue Bear Bronze Metallic.tga using Guid(c4e421b31deb76c478902e4e0afe3cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bf25310681e88077e5f4e477c35dfb') in 0.134358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Street_19.png
+  artifactKey: Guid(32cea9d70b357e24794efe5832826bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Street_19.png using Guid(32cea9d70b357e24794efe5832826bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4842a583d708a6438c6ab172f928c59') in 0.038627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Printer A.png
+  artifactKey: Guid(3f5fa688478f7a14d8b05d8c40b240f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Printer A.png using Guid(3f5fa688478f7a14d8b05d8c40b240f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6c9323e43d7ebeb197d8cb991bcafd') in 0.051782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JKT_Art/UI/ICON/music.png
+  artifactKey: Guid(7bd54938d199db544b8e3ac7112b3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/ICON/music.png using Guid(7bd54938d199db544b8e3ac7112b3148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b602ee01dec9fa1dc96420889fa730') in 0.081530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000880 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/Street_03.png
+  artifactKey: Guid(16380d10f7bec4543adccda1aeb700f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/Street_03.png using Guid(16380d10f7bec4543adccda1aeb700f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238c25b49104b63d0eeb975046c9ca58') in 0.095236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Sink.png
+  artifactKey: Guid(0efd63396cc963f4fb71d659bc43c134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Sink.png using Guid(0efd63396cc963f4fb71d659bc43c134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af631246753de33fead75b7245d4743f') in 0.128991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/JKT_Art/UI/FONT/select_1.png
+  artifactKey: Guid(9a993d7467659854f9894370322728da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/FONT/select_1.png using Guid(9a993d7467659854f9894370322728da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c213d78a7c21c05b0f6182ff6226a3f') in 0.077517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Statue Bear Rough Bronze/Textures/Statue Bear Bronze Normal.tga
+  artifactKey: Guid(3f8c8185ab4b64e4ca8106c0fba6592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Statue Bear Rough Bronze/Textures/Statue Bear Bronze Normal.tga using Guid(3f8c8185ab4b64e4ca8106c0fba6592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaabe2f20308d7b8b3c3bc36161fb7b') in 0.049061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JKT_Art/UI/Arrow/popup_1.png
+  artifactKey: Guid(5740f0213c489dc43a5b919c31a37059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Arrow/popup_1.png using Guid(5740f0213c489dc43a5b919c31a37059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dcd8e7ce290b3c1b26d188b7385622') in 0.176431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/toilet floor.jpg
+  artifactKey: Guid(ac5994799d4431342a796b491493bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/toilet floor.jpg using Guid(ac5994799d4431342a796b491493bbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058d85e2d0bbd99f4d77c6f0f3270451') in 0.176384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Toiletpaper.png
+  artifactKey: Guid(a3b269c378f0553468d3d06a832fdc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Toiletpaper.png using Guid(a3b269c378f0553468d3d06a832fdc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89200671840376baee00cbe3372bae1') in 0.278291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.156802 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Office chair.001.png
+  artifactKey: Guid(37506b21e4195c744a5ec3ae0d903c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Office chair.001.png using Guid(37506b21e4195c744a5ec3ae0d903c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c2cf6f5870438f1ef6ccac5c262820') in 0.327026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077244 seconds.
+  path: Assets/JKT_Art/UI/FONT/move.png
+  artifactKey: Guid(45c5ea5a49c7ea3428215a832daa0dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/FONT/move.png using Guid(45c5ea5a49c7ea3428215a832daa0dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a98fac3f51218721f11149508691cda') in 0.802580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/FurnishedCabin/Textures/PlasticSteelHandle_Normal.png
+  artifactKey: Guid(dcc6faa416bc4d6488d18674cbd55481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/PlasticSteelHandle_Normal.png using Guid(dcc6faa416bc4d6488d18674cbd55481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163652ba6fcecf39a213ae0d790142b8') in 0.065541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009054 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/reception.png
+  artifactKey: Guid(49b4b67111879ee4ebaba9e639c4bfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/reception.png using Guid(49b4b67111879ee4ebaba9e639c4bfd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a879b75b40ff9321379c406934eb630') in 0.093297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Office table.png
+  artifactKey: Guid(2dbc8f919cfd6fd4a82faf6c9425d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Office table.png using Guid(2dbc8f919cfd6fd4a82faf6c9425d98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd860656a2618fd64b8d8d37d7b9c3e62') in 0.341505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005640 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/urinal.png
+  artifactKey: Guid(57a05ba9f20d09e4f9d785d63da0e166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/urinal.png using Guid(57a05ba9f20d09e4f9d785d63da0e166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e5a18d2e92dba96a1346e85a8a85e2') in 0.415922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048658 seconds.
+  path: Assets/FurnishedCabin/Textures/TV_Lamp_Table_MetallicSmoothness.png
+  artifactKey: Guid(f2e8d3b7385e66242bcc47be486fb0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/TV_Lamp_Table_MetallicSmoothness.png using Guid(f2e8d3b7385e66242bcc47be486fb0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbee69862ab44e8c401aa8c211b8ece') in 0.111890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107750 seconds.
+  path: Assets/JKT_Art/UI/ICON/x.png
+  artifactKey: Guid(632c45048af3cff41a21bce8f8bb9867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/ICON/x.png using Guid(632c45048af3cff41a21bce8f8bb9867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b55b8eb23d8a6484f27fc70530df74') in 0.423395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009908 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Ventilation.001.png
+  artifactKey: Guid(f09a4ac74bba9734ea12b5e350e221b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Ventilation.001.png using Guid(f09a4ac74bba9734ea12b5e350e221b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce87850c94826118130475ffc73ea90') in 0.252389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082911 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/note block.png
+  artifactKey: Guid(8fe51d8e5d8a2754ea83c93ccc15ffe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/note block.png using Guid(8fe51d8e5d8a2754ea83c93ccc15ffe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8cdb68adba02bb28105b1503bd1fb2') in 0.453571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040630 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Table.png
+  artifactKey: Guid(45f6df27474ed5f48b8d0662c213a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Table.png using Guid(45f6df27474ed5f48b8d0662c213a485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adede2a453062c7f70ebf903e69d767') in 1.567938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.210063 seconds.
+  path: Assets/JKT_Art/UI/FONT/remove_ads.png
+  artifactKey: Guid(cadc48964cf15964496b831cb9609347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/FONT/remove_ads.png using Guid(cadc48964cf15964496b831cb9609347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bd217fb0aec9da0e80781bac2ee7f7') in 0.381065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060855 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Computer chair.png
+  artifactKey: Guid(e4749485ec73c97468b368cc8b35d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Computer chair.png using Guid(e4749485ec73c97468b368cc8b35d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed78b9c977829ee763ff60bc3f66b872') in 0.259511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.167731 seconds.
+  path: Assets/JKT_Art/UI/Loding/loding08.png
+  artifactKey: Guid(fcb57dccc942cbf488f38ae4b1a72607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Loding/loding08.png using Guid(fcb57dccc942cbf488f38ae4b1a72607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8532f505026d82299ca8d0daf2d59d3') in 0.583752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.172221 seconds.
+  path: Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AlbedoTransparency.png
+  artifactKey: Guid(f6b64e018a17d214a9a658953858a66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Fireplace_KitchenBench_AlbedoTransparency.png using Guid(f6b64e018a17d214a9a658953858a66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3495b9635a16a60e6fd2b31ef2b342f2') in 0.067407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/traffic light texture.png
+  artifactKey: Guid(9f44cf8f90622db4295d8c1ca8ab7dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/traffic light texture.png using Guid(9f44cf8f90622db4295d8c1ca8ab7dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de44337390e65e670a4c3855bb3b47cc') in 0.077794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001193 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/File cupboard.png
+  artifactKey: Guid(76adc89be8885614192cb88463900dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/File cupboard.png using Guid(76adc89be8885614192cb88463900dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806ca4f86969a5980d67cc4eea52ecdc') in 0.064816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Elevator.png
+  artifactKey: Guid(ede6dc15f339a324d969c5d5aa4f56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Elevator.png using Guid(ede6dc15f339a324d969c5d5aa4f56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89487358e41350515b4532e3036dbf5') in 0.071699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002348 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/securety computer screen.png
+  artifactKey: Guid(5519c9b1174dc4745aa384b49eb716f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/securety computer screen.png using Guid(5519c9b1174dc4745aa384b49eb716f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28b61ba76e36a55978513387b48c0b7') in 0.105168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/plant 1 texture.png
+  artifactKey: Guid(dbb9622425df75d49a2c827edb579d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/plant 1 texture.png using Guid(dbb9622425df75d49a2c827edb579d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4853e1dbc867a282c52b5bd6a6560dac') in 0.057573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/JKT_Art/UI/Loding/loding05.png
+  artifactKey: Guid(40dd1a24ca28caa41bdceb18c954ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Loding/loding05.png using Guid(40dd1a24ca28caa41bdceb18c954ddb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0493691dce4a181657525580c723da7d') in 0.110747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JKT_Art/UI/Loding/loding04.png
+  artifactKey: Guid(4660d84c6e82e1b4f814eda70d10e83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/UI/Loding/loding04.png using Guid(4660d84c6e82e1b4f814eda70d10e83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da00183ca70579585d04c4b2a9576a1') in 0.156301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/phone.png
+  artifactKey: Guid(d0e86912a8ef5e843ab4fd5bb045f231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/phone.png using Guid(d0e86912a8ef5e843ab4fd5bb045f231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ee5cd1e04471057222d5f614a29486') in 0.092210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004391 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Office table 2.png
+  artifactKey: Guid(41509875dfaffe9448f0ee3e57ff9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Office table 2.png using Guid(41509875dfaffe9448f0ee3e57ff9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900b4525151918ee5b5ba7ef1565d8fc') in 0.039148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076182 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/drain 2.png
+  artifactKey: Guid(beea5840393b99743a433b11898f5b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/drain 2.png using Guid(beea5840393b99743a433b11898f5b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bea3887298f5006c7be4b0c7f855e66') in 0.051113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/PaperBox.png
+  artifactKey: Guid(4338569fba861c142909fb3d67385031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/PaperBox.png using Guid(4338569fba861c142909fb3d67385031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd353120740139fb0983842aebfdaff') in 0.175092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Enviroment/enviroment/Office building/textures/Props/used/Plant 2.png
+  artifactKey: Guid(df37d3bceeff3ff4ea77fefd75742963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/textures/Props/used/Plant 2.png using Guid(df37d3bceeff3ff4ea77fefd75742963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de784bd5298815700888e2aa5df2470') in 0.078464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/dirt.png
+  artifactKey: Guid(d90409e4a3fae7f46bbf0450da252846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/dirt.png using Guid(d90409e4a3fae7f46bbf0450da252846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83705ccc5cadd8b7e5ea14eaf7e601d') in 0.047185 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
