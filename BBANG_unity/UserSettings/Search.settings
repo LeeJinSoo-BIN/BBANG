@@ -7,7 +7,7 @@ onBoardingDoNotAskAgain = true
 showPackageIndexes = false
 showStatusBar = false
 scopes = {
-	"last_search.DA949528" = "manager"
+	"last_search.DA949528" = "scene vi"
 	"OpenInspectorPreview.DA949528" = "0"
 	"currentGroup.DA949528" = "all"
 }
@@ -56,6 +56,8 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"s"
+	"libr"
 ]
 searchItemFavorites = [
 ]
