@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 150
+=======
+  controlID: 17
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +227,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 151
+=======
+  controlID: 96
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +256,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 152
+=======
+  controlID: 97
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +329,29 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/POLYGON city pack/scene
+    - Assets/JKT_Art/Animals/duck
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/POLYGON city pack/scene
+  - Assets/JKT_Art/Animals/duck
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\msyang\Desktop\GITHUB\BBANG\BBANG_unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 575}
     m_SelectedIDs: fae50000
     m_LastClickedID: 58874
     m_ExpandedIDs: 0000000098e500009ae500009ce500009ee50000a0e50000a2e50000a4e50000a6e50000a8e5000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 287.8525}
+    m_SelectedIDs: 64e60000
+    m_LastClickedID: 58980
+    m_ExpandedIDs: 0000000094e5000096e5000098e500009ae500009ce500009ee50000a0e50000a2e50000a4e5000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +379,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 0000000098e500009ae500009ce500009ee50000a0e50000a2e50000a4e50000a6e50000a8e50000
+=======
+    m_ExpandedIDs: 0000000094e5000096e5000098e500009ae500009ce500009ee50000a0e50000a2e50000a4e50000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,10 +510,17 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< Updated upstream
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 36fbffff
+=======
+      scrollPos: {x: 0, y: 51347.6}
+      m_SelectedIDs: 867affff
+      m_LastClickedID: -34170
+      m_ExpandedIDs: 9c38feff8a7affff5ce9ffff38fbffff18660000147d0000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +769,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -316.72287, y: 90.56412, z: 17.171982}
     speed: 2
     m_Value: {x: -316.72287, y: 90.56412, z: 17.171982}
+=======
+    m_Target: {x: -563.4795, y: 25.810772, z: 100.476074}
+    speed: 2
+    m_Value: {x: -563.4795, y: 25.810772, z: 100.476074}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,6 +824,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< Updated upstream
     m_Target: {x: -0.18916342, y: 0.28880835, z: -0.0581944, w: -0.9368021}
     speed: 2
     m_Value: {x: -0.18966265, y: 0.28034064, z: -0.056484576, w: -0.9392799}
@@ -795,6 +832,15 @@ MonoBehaviour:
     m_Target: 3.0849795
     speed: 2
     m_Value: 2.9521334
+=======
+    m_Target: {x: 0.12092591, y: -0.5335238, z: 0.07730772, w: 0.8336262}
+    speed: 2
+    m_Value: {x: 0.11943466, y: -0.53609, z: 0.076858915, w: 0.83212715}
+  m_Size:
+    m_Target: 106.72357
+    speed: 2
+    m_Value: 102.12782
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
