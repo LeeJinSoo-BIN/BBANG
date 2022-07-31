@@ -1,1 +1,5 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/POLYGON city pack/scene/DemoScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

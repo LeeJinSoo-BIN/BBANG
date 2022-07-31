@@ -1,0 +1,249 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'ko' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\msyang\Desktop\BBANGMAP\BBANG\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63286
+Successfully changed project path to: C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 189.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/git/BBANG/BBANG_unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   30.0.100.9805
+Initialize mono
+Mono path[0] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014103 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 379.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1323ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (673ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (379ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010689 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.482 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2483ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2088ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (517ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (372ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.7 KB). Loaded Objects now: 3865.
+Memory consumption went from 136.9 MB to 136.8 MB.
+Total: 6.673100 ms (FindLiveObjects: 0.534600 ms CreateObjectMapping: 0.251300 ms MarkObjects: 5.785300 ms  DeleteObjects: 0.100700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 349873.986503 seconds.
+  path: Assets/TowerPack/Perfabs/Tower1.prefab
+  artifactKey: Guid(5769e307597dac049b2c58d044c68ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Perfabs/Tower1.prefab using Guid(5769e307597dac049b2c58d044c68ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2150a40438d7bb7be7892dec136b9fe') in 8.852759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.423990 seconds.
+  path: Assets/TowerPack/Models/Tower3/Tower3.FBX
+  artifactKey: Guid(b81da6785a72c364dbec6cd958f715c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Tower3.FBX using Guid(b81da6785a72c364dbec6cd958f715c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cb83c79b37672e69c6ef48c90a5466') in 2.366575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392233 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map2.bmp
+  artifactKey: Guid(4ab60ffd48fc129449994921915a0ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map2.bmp using Guid(4ab60ffd48fc129449994921915a0ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adc038a13bcbde4ae609889cb19ab2d') in 0.302073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017301 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map9.bmp
+  artifactKey: Guid(2978fd071fe927e478f3bfaa6fe0415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map9.bmp using Guid(2978fd071fe927e478f3bfaa6fe0415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7f8a827ae21b57308174b34eca4300') in 0.082887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024324 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map11.bmp
+  artifactKey: Guid(c68944e870c6c804e9f123000a69fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map11.bmp using Guid(c68944e870c6c804e9f123000a69fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff3a518fbc1f625d9b857b2b6a0f63c') in 0.101659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011175 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map6.bmp
+  artifactKey: Guid(adaea16d0aaf2bd4191921d4014b5e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map6.bmp using Guid(adaea16d0aaf2bd4191921d4014b5e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3760268154569eb800e3ae38f88264a5') in 0.578391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038950 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map4.bmp
+  artifactKey: Guid(15c660836e366314892b2b813d6411dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map4.bmp using Guid(15c660836e366314892b2b813d6411dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68fe52d1b6a8e480e1368a887a181c4') in 0.334597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020242 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map7.bmp
+  artifactKey: Guid(a8becb89e1a1af94fb6b209f08848d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map7.bmp using Guid(a8becb89e1a1af94fb6b209f08848d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2a1012a3bf35fea03ac9d75fe12d8c') in 0.598947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.832960 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map2.mat
+  artifactKey: Guid(ae401dd82d57c66469630be9c89502fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map2.mat using Guid(ae401dd82d57c66469630be9c89502fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae6a301c0fbccec982ea58c12d94e94') in 0.343085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map7.mat
+  artifactKey: Guid(7a4e2258278f79d4e9b45aa36724a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map7.mat using Guid(7a4e2258278f79d4e9b45aa36724a7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a8dffe14ab385b7c95ba98449fb93e') in 0.025412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map3.mat
+  artifactKey: Guid(72afaa6e105dfef4b90cbe4959017b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map3.mat using Guid(72afaa6e105dfef4b90cbe4959017b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fe6b512d386830ad98e9d0196572c8') in 0.026972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map10.mat
+  artifactKey: Guid(289762455e346d246a3f86cb754b47a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map10.mat using Guid(289762455e346d246a3f86cb754b47a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f084299a922e816d6aeabcb0f8e396') in 0.083137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map11.mat
+  artifactKey: Guid(3769ffc5d69dd4348aa3ef1f11a57145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map11.mat using Guid(3769ffc5d69dd4348aa3ef1f11a57145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0e1c0dd210dcf8a9f1b02fdffa9a6e') in 0.048051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map13.mat
+  artifactKey: Guid(720b0ca85a7b94246a08a8e60471d15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map13.mat using Guid(720b0ca85a7b94246a08a8e60471d15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277bb21b413f65cd53c9731189b864fa') in 0.184244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map5.mat
+  artifactKey: Guid(ccde3f7f4b3bfb745977b106e7dbf2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map5.mat using Guid(ccde3f7f4b3bfb745977b106e7dbf2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7386df8bf003de2007321ce2c62f14') in 0.108612 seconds 

@@ -1,41 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-<<<<<<< HEAD
-OS: 'Windows 10  (10.0.19044) 64bit EducationN' Language: 'ko' Physical Memory: 16335 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
-=======
 OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'ko' Physical Memory: 16107 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 C:\Users\msyang\Desktop\BBANGMAP\BBANG\2021.3.6f1\Editor\Unity.exe
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-<<<<<<< HEAD
-E:/사용자/김원준/Documents/GitHub/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-9408
-Successfully changed project path to: E:/사용자/김원준/Documents/GitHub/BBANG/BBANG_unity
-E:/사용자/김원준/Documents/GitHub/BBANG/BBANG_unity
-=======
-C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
--logFile
-Logs/AssetImportWorker1.log
--srvPort
-54759
-Successfully changed project path to: C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
-C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
+63908
+Successfully changed project path to: C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,42 +47,11 @@ C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 119.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.6f1 (7da38d85baf6)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/사용자/김원준/Documents/GitHub/BBANG/BBANG_unity/Assets
-GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
-    Vendor:   NVIDIA
-    VRAM:     2988 MB
-    Driver:   30.0.15.1259
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.041246 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1186ms)
-		BeginReloadAssembly (197ms)
-=======
-Refreshing native plugins compatible for Editor in 233.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 129.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/GITHUB/BBANG/BBANG_unity/Assets
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/git/BBANG/BBANG_unity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -112,155 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015239 seconds.
+Registered in 0.014960 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 232.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 166.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.607 seconds
+- Completed reload, in  1.328 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1607ms)
-		BeginReloadAssembly (235ms)
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
+	ReloadAssembly (1329ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-<<<<<<< HEAD
-		EndReloadAssembly (718ms)
-			LoadAssemblies (185ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (178ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (431ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (631ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (100ms)
-=======
-		EndReloadAssembly (1093ms)
-			LoadAssemblies (228ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (626ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (233ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (102ms)
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< HEAD
-Registered in 0.009057 seconds.
+Registered in 0.011253 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\사용자\김원준\Documents\GitHub\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\사용자\김원준\Documents\GitHub\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.919 seconds
+- Completed reload, in  2.003 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1920ms)
-		BeginReloadAssembly (266ms)
+	ReloadAssembly (2004ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1385ms)
-			LoadAssemblies (219ms)
+		EndReloadAssembly (1647ms)
+			LoadAssemblies (171ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (410ms)
+			SetupTypeCache (494ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (658ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (778ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (148ms)
-				ProcessInitializeOnLoadAttributes (395ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (44ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (484ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.6 KB). Loaded Objects now: 3870.
-Memory consumption went from 133.9 MB to 133.9 MB.
-Total: 802.561300 ms (FindLiveObjects: 453.445900 ms CreateObjectMapping: 1.484400 ms MarkObjects: 347.514800 ms  DeleteObjects: 0.114200 ms)
-=======
-Registered in 0.008551 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\GITHUB\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\GITHUB\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.375 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2376ms)
-		BeginReloadAssembly (218ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1844ms)
-			LoadAssemblies (167ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (638ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (835ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (213ms)
-				ProcessInitializeOnLoadAttributes (523ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3382 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.6 KB). Loaded Objects now: 3870.
-Memory consumption went from 134.1 MB to 134.0 MB.
-Total: 40.923100 ms (FindLiveObjects: 1.971000 ms CreateObjectMapping: 0.947000 ms MarkObjects: 37.724900 ms  DeleteObjects: 0.278300 ms)
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
+Unloading 3401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (115.2 KB). Loaded Objects now: 3888.
+Memory consumption went from 140.9 MB to 140.8 MB.
+Total: 5.338500 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.350600 ms MarkObjects: 4.337200 ms  DeleteObjects: 0.162300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -268,166 +153,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-<<<<<<< HEAD
-=======
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
-  Time since last request: 585289.321397 seconds.
+  Time since last request: 348797.059859 seconds.
   path: Assets/NewLayer.terrainlayer
   artifactKey: Guid(d7968033719c6d940808b444bba7604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer.terrainlayer using Guid(d7968033719c6d940808b444bba7604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea8eedb52a585b3a8d0efb01ae5e8eb') in 26.863397 seconds 
+Start importing Assets/NewLayer.terrainlayer using Guid(d7968033719c6d940808b444bba7604f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37ffc9de79a2cace59ea8ff12c5b99b') in 0.215729 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.495534 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(b2f666022fdca8446834fd17dc8dd4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(b2f666022fdca8446834fd17dc8dd4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c282f1270448fef6494148d5ecd88') in 23.359281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(b2f666022fdca8446834fd17dc8dd4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(b2f666022fdca8446834fd17dc8dd4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0c282f1270448fef6494148d5ecd88') in 0.227976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1025.469752 seconds.
-  path: Assets/Building FastFood Drinks/SkyBox.mat
-  artifactKey: Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/SkyBox.mat using Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a13ad37391fbe2575e1f1de78a5824e') in 0.382823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.472788 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/truck.fbx
-  artifactKey: Guid(9da17e46af819d046b9cbf7728de49a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/truck.fbx using Guid(9da17e46af819d046b9cbf7728de49a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f6ac553960e7ddacd926ac97529164') in 23.851610 seconds 
+  Time since last request: 101.930101 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Food_seller_stand_textureAD.mat
+  artifactKey: Guid(20b832b9b7d8ace48bf5c7b77df3ea28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/Materials/Food_seller_stand_textureAD.mat using Guid(20b832b9b7d8ace48bf5c7b77df3ea28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaf810eb4d6872aa1482572a757bf98') in 1.006344 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-metal_dark.mat
-  artifactKey: Guid(6134a3b3b48f6194fb34c5ea3a65207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-metal_dark.mat using Guid(6134a3b3b48f6194fb34c5ea3a65207f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65b8eaa4388e89fa4094a5289571975') in 0.230958 seconds 
+  path: Assets/FurnishedCabin/Meshes/FreestandMirror.fbx
+  artifactKey: Guid(b53e9c84208cc48d8b1adc74360d8db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/FreestandMirror.fbx using Guid(b53e9c84208cc48d8b1adc74360d8db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca6d4b6284a4cf4b32ae2b53e52ba3c') in 1.873228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_main_color.mat
-  artifactKey: Guid(b7d51ee4159dca94eb79326b47fd32a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_main_color.mat using Guid(b7d51ee4159dca94eb79326b47fd32a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50893c7a926e491277e7a9f8506161dc') in 0.037386 seconds 
+  Time since last request: 0.166717 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/traffic_warning_stand.mat
+  artifactKey: Guid(cda4bf9752050144cae905f521392822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/traffic_warning_stand.mat using Guid(cda4bf9752050144cae905f521392822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b388fdfa013eab157b583e7cef6a4cfe') in 0.041521 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-wheels_metal.mat
-  artifactKey: Guid(4a26c5024b47f1c489c19d623c479c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-wheels_metal.mat using Guid(4a26c5024b47f1c489c19d623c479c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283d261ce1d32b6826dbb4818d6844fd') in 0.121479 seconds 
+  Time since last request: 0.087935 seconds.
+  path: Assets/POLYGON city pack/Materials/Material_meshs/StreetSellerStand AD.mat
+  artifactKey: Guid(a772bcb58f8935449a3219ec0e4bffa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Materials/Material_meshs/StreetSellerStand AD.mat using Guid(a772bcb58f8935449a3219ec0e4bffa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2775bee078275654c9bc738cacf0d9') in 0.109597 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-wheels.mat
-  artifactKey: Guid(2f1eba0767a31d4408ba75a7c4ac331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-wheels.mat using Guid(2f1eba0767a31d4408ba75a7c4ac331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846a8b0c33180c74180e42d3596c9fb9') in 0.014386 seconds 
+  Time since last request: 0.013832 seconds.
+  path: Assets/FurnishedCabin/Meshes/Collision/FreestandMirror_COL.fbx
+  artifactKey: Guid(1ecdaf6793a1141fbbd1607673362cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Collision/FreestandMirror_COL.fbx using Guid(1ecdaf6793a1141fbbd1607673362cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1430ab2124b849c9ad181eb6c98cb2be') in 0.299940 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu_smooth.mat
-  artifactKey: Guid(39cd26f538c82244b94375407e8e5f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu_smooth.mat using Guid(39cd26f538c82244b94375407e8e5f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c8433da06c0e1a03664b5075d47402') in 0.016164 seconds 
+  Time since last request: 187.595784 seconds.
+  path: Assets/Enviroment/enviroment/Office building/meshes/couch office.fbx
+  artifactKey: Guid(86bcf36b28c4876428c0e80590d3eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/meshes/couch office.fbx using Guid(86bcf36b28c4876428c0e80590d3eb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89cc1c1e97b2bb94cb24f9e9b8b9992') in 0.273139 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-metal_chromed.mat
-  artifactKey: Guid(31f17fa2e81691146b6a8ffa334b3446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-metal_chromed.mat using Guid(31f17fa2e81691146b6a8ffa334b3446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b06c55c29e4b0d290cfe6bee0af03a') in 0.018746 seconds 
+  Time since last request: 0.000395 seconds.
+  path: Assets/JKT_Art/block/Materials/final.mat
+  artifactKey: Guid(867959f05af978a4d8e03db023d9c9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKT_Art/block/Materials/final.mat using Guid(867959f05af978a4d8e03db023d9c9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b827506a23662b288fd4abc403eb85d5') in 0.290428 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Single_detailed_truck/Prefabs/Truck.prefab
-  artifactKey: Guid(b70eb1cf1be37564f8063fba2095584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/Prefabs/Truck.prefab using Guid(b70eb1cf1be37564f8063fba2095584b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8a0f0a24cac4b63442ccfff2b73706') in 0.862125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-plastic.mat
-  artifactKey: Guid(f08b9019e865f2e4088943576053d75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-plastic.mat using Guid(f08b9019e865f2e4088943576053d75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a69c10055685994020318c61241b36') in 0.082457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu.mat
-  artifactKey: Guid(0fc1b1b9b2d808048986fee4baf8df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu.mat using Guid(0fc1b1b9b2d808048986fee4baf8df00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cacdad468717aa7645b620c554f449') in 0.051033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_floor.mat
-  artifactKey: Guid(249810e02b5b82e459309ff015c9d014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_floor.mat using Guid(249810e02b5b82e459309ff015c9d014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b127ec253ede276bc2747af4456fd8') in 0.050519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-main_color.mat
-  artifactKey: Guid(cf321d5c3036fdf47b1f39a7a8b18b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-main_color.mat using Guid(cf321d5c3036fdf47b1f39a7a8b18b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98801536c69eed2a38d8cc5765a8736') in 0.018374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.131933 seconds.
-  path: Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab
-  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Characters/FirstPersonCharacter/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49e7af489546c31807cc37806ebf32d') in 0.055989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.952941 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Bus_2.prefab
-  artifactKey: Guid(34941e62fdb557544ada8af1b5333ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Bus_2.prefab using Guid(34941e62fdb557544ada8af1b5333ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff84a139e45416d1af1131df0017f308') in 5.927220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Taxi.prefab
-  artifactKey: Guid(50477af197889084e8a6d97f2b73b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Taxi.prefab using Guid(50477af197889084e8a6d97f2b73b73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a1c1663b3dd775acf6f14679cd61a4') in 0.248621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Car_3.prefab
-  artifactKey: Guid(512151c1530b99343a884b12ee9c5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Car_3.prefab using Guid(512151c1530b99343a884b12ee9c5e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85381b885c96997b988fd9ff561a463b') in 0.088821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Police_car.prefab
-  artifactKey: Guid(f463242ba59e68243b7a693d4f0cfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Police_car.prefab using Guid(f463242ba59e68243b7a693d4f0cfc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82ce85c0e10aa0d3444f25ecd742332') in 0.117033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Car_4.prefab
-  artifactKey: Guid(ab26596a331d7ee43a3e9d29e2be9f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Car_4.prefab using Guid(ab26596a331d7ee43a3e9d29e2be9f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5178d3fd2cb77047a566de5da74cc13') in 0.103827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Car_2.prefab
-  artifactKey: Guid(2dc42346e5313b34c93d598a61994629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Car_2.prefab using Guid(2dc42346e5313b34c93d598a61994629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc6a2776abacfe6748b8813b6cf6e65') in 0.092185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Simple Vehicle Pack/Prefabs/Car_1.prefab
-  artifactKey: Guid(0ae65270c30153049ab49eb3ebf070d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Prefabs/Car_1.prefab using Guid(0ae65270c30153049ab49eb3ebf070d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c9dd9deae80173012129b1bd12771') in 0.184198 seconds 
+  Time since last request: 0.005410 seconds.
+  path: Assets/Enviroment/enviroment/Office building/Prefabs/office building Prefab.prefab
+  artifactKey: Guid(e2e6970f9dbe45743858950d9b85475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enviroment/enviroment/Office building/Prefabs/office building Prefab.prefab using Guid(e2e6970f9dbe45743858950d9b85475f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28067ee8a976decfeb3ce899d7f8ecd2') in 3.339030 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
-=======
-  Time since last request: 100096.701633 seconds.
-  path: Assets/JKT_Art/Animals/sheep
-  artifactKey: Guid(187c1b9a0947bbb44b97821bab4e09a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JKT_Art/Animals/sheep using Guid(187c1b9a0947bbb44b97821bab4e09a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901644aa9718d7b468333fc5fd253555') in 0.028946 seconds 
->>>>>>> 66b2a72510f8da0ad2c3348ca91994639c65b896
