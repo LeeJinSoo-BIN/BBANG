@@ -15,7 +15,7 @@ C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58448
+61407
 Successfully changed project path to: C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
 C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 664.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.097099 seconds.
+Registered in 0.015131 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 433.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.206 seconds
+- Completed reload, in  0.678 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3207ms)
-		BeginReloadAssembly (503ms)
+	ReloadAssembly (678ms)
+		BeginReloadAssembly (128ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (2022ms)
-			LoadAssemblies (486ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (225ms)
-			SetupLoadedEditorAssemblies (1171ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (96ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (433ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (481ms)
-				ProcessInitializeOnLoadMethodAttributes (155ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.051865 seconds.
+Registered in 0.021009 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnf\OneDrive\문서\GitHub\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnf\OneDrive\문서\GitHub\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.464 seconds
+- Completed reload, in  1.165 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3468ms)
-		BeginReloadAssembly (493ms)
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (2529ms)
-			LoadAssemblies (519ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (158ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (842ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (127ms)
-			SetupLoadedEditorAssemblies (1034ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (412ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (252ms)
-				ProcessInitializeOnLoadAttributes (620ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (53ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (44ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3829.
-Memory consumption went from 116.4 MB to 116.2 MB.
-Total: 10.382000 ms (FindLiveObjects: 0.731700 ms CreateObjectMapping: 0.628400 ms MarkObjects: 8.803700 ms  DeleteObjects: 0.214300 ms)
+Memory consumption went from 116.3 MB to 116.2 MB.
+Total: 3.963600 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.165000 ms MarkObjects: 3.282800 ms  DeleteObjects: 0.100400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,535 +162,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1328326.956938 seconds.
-  path: Assets/Prefabs/Characters/animation/New Folder
-  artifactKey: Guid(c63734eab4fc0674bb3142b5b693d8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New Folder using Guid(c63734eab4fc0674bb3142b5b693d8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff206af175ab75b0aa3fbb05ccca1848') in 0.066195 seconds 
+  Time since last request: 1334802.037953 seconds.
+  path: Assets/swat.fbx
+  artifactKey: Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/swat.fbx using Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616ccc08e3d4820fbc7ffb6eb1ac5f42') in 0.222815 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.016428 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder
-  artifactKey: Guid(c63734eab4fc0674bb3142b5b693d8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder using Guid(c63734eab4fc0674bb3142b5b693d8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dfbf697997783df7b490587c9cdd06') in 0.005224 seconds 
+  Time since last request: 91.749865 seconds.
+  path: Assets/warp.cs
+  artifactKey: Guid(5118ed477afb10d4dbfcd1b993f3c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/warp.cs using Guid(5118ed477afb10d4dbfcd1b993f3c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee67135fafcf4cec8299633646b4280d') in 0.274353 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.338106 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion
-  artifactKey: Guid(c0de72816e1102c4088e9094701bf24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion using Guid(c0de72816e1102c4088e9094701bf24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e07e1e950c42025b51bca3e342d10f') in 0.007127 seconds 
+  Time since last request: 113.383338 seconds.
+  path: Assets/SurvivalStylizedCharacters/Assets
+  artifactKey: Guid(0ce695db1cf50f148af98db43f369759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalStylizedCharacters/Assets using Guid(0ce695db1cf50f148af98db43f369759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01173b19c394906b3360f57195f6c1f') in 0.006184 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.214085 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Walk.fbx
-  artifactKey: Guid(317a90569c3a0154a80ca692d191caf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Walk.fbx using Guid(317a90569c3a0154a80ca692d191caf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660b4c06928da49695d5099d7427893e') in 0.704429 seconds 
+  Time since last request: 0.920992 seconds.
+  path: Assets/SurvivalStylizedCharacters/Assets/Models
+  artifactKey: Guid(0538c740700c22f499923787ffbf5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalStylizedCharacters/Assets/Models using Guid(0538c740700c22f499923787ffbf5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eae3d5b0d699beb32fd623d349de82') in 0.007309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.525854 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Run.fbx
-  artifactKey: Guid(c4c05e5f69556cf40a03483e2b391d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Run.fbx using Guid(c4c05e5f69556cf40a03483e2b391d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eea1a2cf33fd9984d123dd04770a36') in 0.177993 seconds 
+  Time since last request: 0.070476 seconds.
+  path: Assets/SurvivalStylizedCharacters/Assets/Models/background.fbx
+  artifactKey: Guid(8a16c04365653044ea5ee2ab2574df70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SurvivalStylizedCharacters/Assets/Models/background.fbx using Guid(8a16c04365653044ea5ee2ab2574df70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e54f8b3f1c9f15ad7fc271b634122a') in 0.026073 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.407412 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Jump.fbx
-  artifactKey: Guid(f305d0997d09a2d4fb2c155bfe6a7ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Jump.fbx using Guid(f305d0997d09a2d4fb2c155bfe6a7ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903ae997bb6c60f85614f745a4f2ca65') in 0.167387 seconds 
+  Time since last request: 108.986693 seconds.
+  path: Assets/swat.fbx
+  artifactKey: Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/swat.fbx using Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee291a96db976bba0c290e7060628d0d') in 0.349677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.923542 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Idle.fbx
-  artifactKey: Guid(22380f719bf3ffb47aeec762b4fb2e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Idle.fbx using Guid(22380f719bf3ffb47aeec762b4fb2e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1811c9324c85258a71360c37f8c53f1') in 0.172639 seconds 
+  Time since last request: 0.016347 seconds.
+  path: Assets/Soldier_head_diffuse.png
+  artifactKey: Guid(61291f8d4c2d2854bae80d1c54d4db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier_head_diffuse.png using Guid(61291f8d4c2d2854bae80d1c54d4db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf96c61800c52edf68d38b6278869acb') in 0.137601 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.857910 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Kneeling Idle.fbx
-  artifactKey: Guid(1302052887d04ce4287cece7f9eb1947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Kneeling Idle.fbx using Guid(1302052887d04ce4287cece7f9eb1947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f633827c7cf6e24e554b3e742d7dfca9') in 0.191299 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Soldier_head_specular.png
+  artifactKey: Guid(21d386aa30e11cd42b69546f75fe1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier_head_specular.png using Guid(21d386aa30e11cd42b69546f75fe1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543b14fc4733761144c4c48a67988b77') in 0.026705 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.371008 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Kneel To Stand.fbx
-  artifactKey: Guid(1b2c771ba714f6746a236f18de6f7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Kneel To Stand.fbx using Guid(1b2c771ba714f6746a236f18de6f7582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677bfd089f97facfa374b68b8ea94dfe') in 0.247363 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Soldier_Body_normal.png
+  artifactKey: Guid(21ddf53cb5a8b0649b1b5f56e88ab177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier_Body_normal.png using Guid(21ddf53cb5a8b0649b1b5f56e88ab177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02399c9a622342297497005456a56c7') in 0.022997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.723650 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Stand To Kneel.fbx
-  artifactKey: Guid(46424431be1f15049903068fe39e378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/swat@Pistol Stand To Kneel.fbx using Guid(46424431be1f15049903068fe39e378e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d675b3cc00a9ac95178f59a43c8c646') in 0.200534 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Soldier_Body_specular.png
+  artifactKey: Guid(cbc3aa7d64dcc58498ed73312dfd20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier_Body_specular.png using Guid(cbc3aa7d64dcc58498ed73312dfd20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55889e5a7512062aa085b6e6c73b26fc') in 0.028625 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.766441 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Idle.anim
-  artifactKey: Guid(4175895cbc6617c4c8f90728184305b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Idle.anim using Guid(4175895cbc6617c4c8f90728184305b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61cf810a6cb2b8c611f743ff5606c51') in 0.021482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.499925 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Jump.anim
-  artifactKey: Guid(8eb71be5236f44c4d9e0d5fa67efe756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Jump.anim using Guid(8eb71be5236f44c4d9e0d5fa67efe756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae61af56c06badecc3438807f5107de0') in 0.018705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.502516 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Kneel To Stand.anim
-  artifactKey: Guid(b13afe78afcad5f4082ef2e60398e5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Kneel To Stand.anim using Guid(b13afe78afcad5f4082ef2e60398e5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3911c330b31643a4522b0e70251664f6') in 0.015109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.698333 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Kneeling Idle.anim
-  artifactKey: Guid(08bf6f15e5a1cc34e93113114985c819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Kneeling Idle.anim using Guid(08bf6f15e5a1cc34e93113114985c819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9083f5ae7c25a167ae2636d1ce5e98b0') in 0.014696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.562068 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Run.anim
-  artifactKey: Guid(c6ae98eca5a31c74b8243c07b4faf6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Run.anim using Guid(c6ae98eca5a31c74b8243c07b4faf6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a108381e9021e75fe069568d535d815b') in 0.014350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.388311 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Stand To Kneel.anim
-  artifactKey: Guid(5cadd08f9e2eaff4b95f840e4da6d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Stand To Kneel.anim using Guid(5cadd08f9e2eaff4b95f840e4da6d8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c17d8a467cc8e054b02023c08d2f17') in 0.016355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.057528 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Walk.anim
-  artifactKey: Guid(85abfa809b5cca1419def84936d21880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Pistol motion/Pistol Walk.anim using Guid(85abfa809b5cca1419def84936d21880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05222a3c6bcff806bdabd7e65fa820d4') in 0.014712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 378.524981 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion
-  artifactKey: Guid(e135f718c3cfac8459a2a5f99199bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion using Guid(e135f718c3cfac8459a2a5f99199bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20770bcefcd2463d54ded74f95d3375e') in 0.004969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.054458 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Idle.fbx
-  artifactKey: Guid(fc0de490bc57e594182d855073c1048e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Idle.fbx using Guid(fc0de490bc57e594182d855073c1048e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd4ad4d37902c0fe2aabe869e397131') in 0.093414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.851481 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Idle.anim
-  artifactKey: Guid(faeede682a5ae2e4eb9316bc8eda94b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Idle.anim using Guid(faeede682a5ae2e4eb9316bc8eda94b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bbac9b155b57f441b4a7c58e277ad5') in 0.008187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.215919 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Run.fbx
-  artifactKey: Guid(5106dfc997dee0b4e8653dea65cde15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Run.fbx using Guid(5106dfc997dee0b4e8653dea65cde15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e8b0680a8f63b8d32abed2190182b7') in 0.086082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.296915 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run.anim
-  artifactKey: Guid(b215a6605fb20644380e6fbd99df720e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run.anim using Guid(b215a6605fb20644380e6fbd99df720e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4e525395a32c9945af68b7568156af') in 0.007184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.462927 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Aiming Idle.fbx
-  artifactKey: Guid(dc1f4c1aa149b8e488ff5619c7c92f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Aiming Idle.fbx using Guid(dc1f4c1aa149b8e488ff5619c7c92f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89b4ff432c5147efcb5bf1a2f2e6176') in 0.088417 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.427687 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Aiming Idle.anim
-  artifactKey: Guid(6822954089aa6bd46b85fec77872b22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Aiming Idle.anim using Guid(6822954089aa6bd46b85fec77872b22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138edaa07e664c07431bf997913852c7') in 0.010133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.975554 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Walk.fbx
-  artifactKey: Guid(cc47fb860c8ef964cbabe0dfa49a5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Walk.fbx using Guid(cc47fb860c8ef964cbabe0dfa49a5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c00d08d2185e34db0a48bf487f6e14') in 0.213206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.294491 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Walk.anim
-  artifactKey: Guid(670e1eff8af98cf4eb7c48cd062d4099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Walk.anim using Guid(670e1eff8af98cf4eb7c48cd062d4099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa267bd450900a897c8409ad44cf1541') in 0.015890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.606995 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/no aiming
-  artifactKey: Guid(7a586dbcb76282d48b4fc30d6c1ac9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/no aiming using Guid(7a586dbcb76282d48b4fc30d6c1ac9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a838031c5997a14a1ebbef60f02d06') in 0.010380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 461.087101 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouching
-  artifactKey: Guid(2ddc509b5dad68045be637dbe9f84aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouching using Guid(2ddc509b5dad68045be637dbe9f84aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089cb94cbed45069b2a3b429b2c84869') in 0.010001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.287530 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch
-  artifactKey: Guid(2ddc509b5dad68045be637dbe9f84aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch using Guid(2ddc509b5dad68045be637dbe9f84aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2915e5cc51cd6ae73ea60e17935998') in 0.005179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.181085 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone
-  artifactKey: Guid(fd6b883141db06e4c9f9bb9c82e1d2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone using Guid(fd6b883141db06e4c9f9bb9c82e1d2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09efc4fe2d7ce25ca0636cb7c1934f3') in 0.005803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.544466 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Idle.fbx
-  artifactKey: Guid(6ec0bd018d5ce424ba8f5ff4c3524f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Idle.fbx using Guid(6ec0bd018d5ce424ba8f5ff4c3524f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068e20030902b34490d655b55a2a0b1b') in 0.060200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.844218 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Reloading.fbx
-  artifactKey: Guid(5c86c911e17b870429844790c6ca914a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Reloading.fbx using Guid(5c86c911e17b870429844790c6ca914a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af272adec36e3c47d67bffff98aa580') in 0.060191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.489719 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Idle.anim
-  artifactKey: Guid(988ba9a5a3cf1c84b8262246d2c737be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Idle.anim using Guid(988ba9a5a3cf1c84b8262246d2c737be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953c416515902348303c12db35bae213') in 0.007971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.891281 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Reloading.anim
-  artifactKey: Guid(36196204b4f8c23499a6d120da559aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Reloading.anim using Guid(36196204b4f8c23499a6d120da559aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4cf6b1602fa6f088d0772397dee49a') in 0.018006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.716734 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Walking.fbx
-  artifactKey: Guid(c960124aea116954dac539b9d9e0c868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Walking.fbx using Guid(c960124aea116954dac539b9d9e0c868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1492ea11beb2f3cdd6152b7d2571fe28') in 0.063559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.346525 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Idle.fbx
-  artifactKey: Guid(eff073927a4e25541afbe41565cbefa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Idle.fbx using Guid(eff073927a4e25541afbe41565cbefa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f957879458712c442dbc3f77a782963') in 0.059602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.515312 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Idle.anim
-  artifactKey: Guid(6afe60939593457428f5bd17b00e50df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Idle.anim using Guid(6afe60939593457428f5bd17b00e50df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249de454607b630d522626d05c02c712') in 0.006965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.198560 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Walking.anim
-  artifactKey: Guid(ba68e87b894e5574ba651c0d4c098c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Walking.anim using Guid(ba68e87b894e5574ba651c0d4c098c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fa8fd3d8835e7dfdd04d772b747472') in 0.006717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.321298 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Firing Rifle.fbx
-  artifactKey: Guid(e875795e671042949b36361120393460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Firing Rifle.fbx using Guid(e875795e671042949b36361120393460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aceae8fb3728dc0381e1db6480387b5') in 0.058424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.837599 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Firing Rifle.anim
-  artifactKey: Guid(c9e63d65d1b80d3469a41271eef5d235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Firing Rifle.anim using Guid(c9e63d65d1b80d3469a41271eef5d235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca8bd98e0a6ffecf543e12edef0ccde') in 0.007155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.641359 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Reload crouch.fbx
-  artifactKey: Guid(b3f3161c7f4a23441bfae69b037e8fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Reload crouch.fbx using Guid(b3f3161c7f4a23441bfae69b037e8fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fc7c5e826f7d4f91edaaedb42fb794') in 0.057800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.985064 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Reload crouch.anim
-  artifactKey: Guid(288befb82be7b6543afaa9a67da4606f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Reload crouch.anim using Guid(288befb82be7b6543afaa9a67da4606f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76869e1762a21ac11b99c581a1c8674') in 0.018295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.360002 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Running.fbx
-  artifactKey: Guid(c22554a0894201d489bbe63b76f3a76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Running.fbx using Guid(c22554a0894201d489bbe63b76f3a76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8f268bbcb0d0cb2539c6c1f3ded4dc') in 0.058530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.994975 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Running.anim
-  artifactKey: Guid(b52b543a73e7d354ea9517d43a0ce851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Running.anim using Guid(b52b543a73e7d354ea9517d43a0ce851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2bdad5aef22098a96793b66aa99139') in 0.007540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.957192 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Reloading.fbx
-  artifactKey: Guid(572609178ce303b49aa5dcae632d0609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Reloading.fbx using Guid(572609178ce303b49aa5dcae632d0609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39674b49c09ad3c2e5d4ed2b921be2d') in 0.058318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.602931 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Reloading.anim
-  artifactKey: Guid(6d4812285ad31944d81bb781933c0802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Reloading.anim using Guid(6d4812285ad31944d81bb781933c0802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b8aa1b0fb8dc04128470f53e052c31') in 0.017531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 68.601730 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Run (1).fbx
-  artifactKey: Guid(a77cfd66157501a49b43810cd4117bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Run (1).fbx using Guid(a77cfd66157501a49b43810cd4117bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ded371885b0ccc4bbce184a1078087') in 0.101005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.341973 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run (1).anim
-  artifactKey: Guid(f2ba179bd2b395349bbadc756318c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run (1).anim using Guid(f2ba179bd2b395349bbadc756318c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1962123f521de34deb141299ef276ff0') in 0.009009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.847503 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run.anim
-  artifactKey: Guid(f2ba179bd2b395349bbadc756318c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run.anim using Guid(f2ba179bd2b395349bbadc756318c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bb497781d40578a6f8e261e1ef1a2f') in 0.008518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.104401 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Aiming Run.anim
-  artifactKey: Guid(f2ba179bd2b395349bbadc756318c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Aiming Run.anim using Guid(f2ba179bd2b395349bbadc756318c504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b73fee02b3b25caaea74ea12b6c90ae') in 0.010095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.131079 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Firing Rifle (1).fbx
-  artifactKey: Guid(677988cd287be164582d0bcde86a40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Firing Rifle (1).fbx using Guid(677988cd287be164582d0bcde86a40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253830ecb925dd9939701a468bd03d4d') in 0.081836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 664.871614 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Firing Rifle.fbx
-  artifactKey: Guid(c0122a4c5e19d2243bda46a899cd466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Firing Rifle.fbx using Guid(c0122a4c5e19d2243bda46a899cd466f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12c26eae0034daa2cb052537ef21995') in 0.070301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.154205 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Firing Rifle.anim
-  artifactKey: Guid(e6d0afe8d71f6d24697f84e3c41fee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Firing Rifle.anim using Guid(e6d0afe8d71f6d24697f84e3c41fee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585aad5db05c57021b6a438d6d389755') in 0.006978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.241870 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Crouch To Standing With Rifle.fbx
-  artifactKey: Guid(a5e5a413a2ce27940b73eded67e26dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Crouch To Standing With Rifle.fbx using Guid(a5e5a413a2ce27940b73eded67e26dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6514f95e301a34c0324e7e9d3ccec') in 0.059219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.909540 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch To Standing With Rifle.anim
-  artifactKey: Guid(95521206b269e4742bfd3af960de914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch To Standing With Rifle.anim using Guid(95521206b269e4742bfd3af960de914c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162019e869ecc459222db39727ddf191') in 0.006654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.132488 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Fire Rifle.fbx
-  artifactKey: Guid(c2c21299c7ec8604fbef7ea391528a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Fire Rifle.fbx using Guid(c2c21299c7ec8604fbef7ea391528a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4d50885146a9680f4500f2f2b54bd7') in 0.055554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.283744 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Fire Rifle.anim
-  artifactKey: Guid(22525711e94dd68458411f942d5ef880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Fire Rifle.anim using Guid(22525711e94dd68458411f942d5ef880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49147b448fb170959838f00b664ca738') in 0.007025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 309.693398 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Death.fbx
-  artifactKey: Guid(db15639db5311cc4c822ac68d2e75fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch Death.fbx using Guid(db15639db5311cc4c822ac68d2e75fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce20d918ed6067d63594df1073e5aab3') in 0.084920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.409947 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Death.anim
-  artifactKey: Guid(36e1deac9e19ea140a4cb261ca1a40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch Death.anim using Guid(36e1deac9e19ea140a4cb261ca1a40f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c692425ef82bd6e3c97e4f9b19928d6a') in 0.018211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.624824 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Walking To Dying.fbx
-  artifactKey: Guid(1de54e1422ed67c4794865da539e3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Walking To Dying.fbx using Guid(1de54e1422ed67c4794865da539e3d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf923aecded478cc35839f6b2a12baf') in 0.085296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.286489 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Walking To Dying.anim
-  artifactKey: Guid(2f78a94b84898aa4f8e5de5d0a4913a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Walking To Dying.anim using Guid(2f78a94b84898aa4f8e5de5d0a4913a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154cd5a62af1ef88edc85ded64a8e3a6') in 0.018627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 195.427103 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Death.fbx
-  artifactKey: Guid(e5a4b99162533d44389690c83dee729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Death.fbx using Guid(e5a4b99162533d44389690c83dee729b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45022072f3c48dcb82286adf3e2c1f3') in 0.193657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.181391 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Death.anim
-  artifactKey: Guid(1833c0afd65a78544b41a0b71076d3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Death.anim using Guid(1833c0afd65a78544b41a0b71076d3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518ad2c8654775dbd5cceee9ea7d7daa') in 0.025762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.197982 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone To Crouch Transition.fbx
-  artifactKey: Guid(af48ca8a564cc0c45b467bebd59887bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone To Crouch Transition.fbx using Guid(af48ca8a564cc0c45b467bebd59887bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4564e262e6506aaf0be60df3ab0afda8') in 0.175237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.476440 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone To Crouch Transition.anim
-  artifactKey: Guid(a7f8700ec4cd67a419fec624256708ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone To Crouch Transition.anim using Guid(a7f8700ec4cd67a419fec624256708ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1212d1a57feccd60f1e5e4343dc6bf') in 0.021330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.091660 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Down To Aim.fbx
-  artifactKey: Guid(c067c8584947ada439af5a077cc782e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Down To Aim.fbx using Guid(c067c8584947ada439af5a077cc782e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52c6f367b90a34470febf1ef2228c43') in 0.133054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.008084 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Down To Aim.anim
-  artifactKey: Guid(9a9264bd76ef25548b724de3a7c76dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Down To Aim.anim using Guid(9a9264bd76ef25548b724de3a7c76dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4663cb9cf1811376466e7a95f4473cfa') in 0.010401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 171.165241 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Grenade Throw.fbx
-  artifactKey: Guid(f08e2fb2f61bac041bab353cdfb96b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Grenade Throw.fbx using Guid(f08e2fb2f61bac041bab353cdfb96b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535ae07560670d28188662a762db8acf') in 0.086545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.782579 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Grenade Throw.anim
-  artifactKey: Guid(08b42faf2e922b041b633981337ae09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Grenade Throw.anim using Guid(08b42faf2e922b041b633981337ae09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce080e4c5ec8d2a2d0e1aa9d0a42299') in 0.015830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.671757 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch To Prone.fbx
-  artifactKey: Guid(6fd3df68852743043b75631532bef926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Crouch To Prone.fbx using Guid(6fd3df68852743043b75631532bef926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a045ff5003c8b5f3278206f583b79f') in 0.121873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.778998 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch To Prone.anim
-  artifactKey: Guid(46dfaa9c120aae547927b5107c815392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouch To Prone.anim using Guid(46dfaa9c120aae547927b5107c815392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628f311941bd811f14f1523994090296') in 0.024626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.084661 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Walking.fbx
-  artifactKey: Guid(435d03641170744498394808b2c457ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Walking.fbx using Guid(435d03641170744498394808b2c457ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142b04e87cabbcd0d4982b797ef7e400') in 0.195476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.928800 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Jump In Place.fbx
-  artifactKey: Guid(ade862bd6c3ea694ea4acfe09cbb0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Jump In Place.fbx using Guid(ade862bd6c3ea694ea4acfe09cbb0f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fccb6288222dafec711b64869191378') in 0.178935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.979430 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Jump In Place.anim
-  artifactKey: Guid(337de61f08f59494388d1cddb54ffb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Jump In Place.anim using Guid(337de61f08f59494388d1cddb54ffb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33d587881091b00baddb4a910c89ef9') in 0.017983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.404478 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Walking.anim
-  artifactKey: Guid(91658c5e6f3b90c43b2f3368c0075d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Walking.anim using Guid(91658c5e6f3b90c43b2f3368c0075d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51df12eaf38a486be8c65a5a48658ada') in 0.015939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 228.022848 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Grenade Throw (1).fbx
-  artifactKey: Guid(8931fa55adfa5ec42b575db3c1da5b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Grenade Throw (1).fbx using Guid(8931fa55adfa5ec42b575db3c1da5b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5e0517b83e9919556f581b98aa2ffd') in 0.091047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.119647 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Grenade Throw (1).anim
-  artifactKey: Guid(71ec87b4a14c80a428abdf98efd8291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Grenade Throw (1).anim using Guid(71ec87b4a14c80a428abdf98efd8291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3438482f107a7e5ab816d822a877cc7') in 0.023520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.353574 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouched Grenade Throw.anim
-  artifactKey: Guid(71ec87b4a14c80a428abdf98efd8291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Crouched Grenade Throw.anim using Guid(71ec87b4a14c80a428abdf98efd8291d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bfed7e71fe0756905f6d327362f4d8') in 0.022251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.851774 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Forward.fbx
-  artifactKey: Guid(39e86753aa5330d42a2e0da659a84574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/swat@Prone Forward.fbx using Guid(39e86753aa5330d42a2e0da659a84574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd125812bef9f64bd6622f86fec93c38b') in 0.139491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.736904 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Forward.anim
-  artifactKey: Guid(d6f2068bc0dda874bb4566bae071ec3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/prone/Prone Forward.anim using Guid(d6f2068bc0dda874bb4566bae071ec3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc45e151599a6e5f0e5dd1f31468a6aa') in 0.020640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 266.410433 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Throw Grenade.fbx
-  artifactKey: Guid(9aa5c7f1b9353784db5655827d3b70fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Throw Grenade.fbx using Guid(9aa5c7f1b9353784db5655827d3b70fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f91199666dd39c2d5c91f13a44a5703') in 0.087447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.481513 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Throw Grenade.anim
-  artifactKey: Guid(c0daeaba1426553449aaef144e51109e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Throw Grenade.anim using Guid(c0daeaba1426553449aaef144e51109e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f6c4a741d61eb15260c06e7f16ffca') in 0.017965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 112.693399 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Run (2).fbx
-  artifactKey: Guid(8377b34f101be6d459363c31285d9f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Rifle Run (2).fbx using Guid(8377b34f101be6d459363c31285d9f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77df4a5759e1cb56cee12f9571cc9d64') in 0.096601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.406672 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run (2).anim
-  artifactKey: Guid(cd725396c5318894ea3733b0b5636c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run (2).anim using Guid(cd725396c5318894ea3733b0b5636c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c2475345cbc710128fb077c321c811') in 0.011412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.568979 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run.anim
-  artifactKey: Guid(cd725396c5318894ea3733b0b5636c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Rifle Run.anim using Guid(cd725396c5318894ea3733b0b5636c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802a9f010abf6b8bc0f4749dda108a87') in 0.008939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 185.709205 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Death From Front Headshot.fbx
-  artifactKey: Guid(ec54fe2e76e1bc84085e443ff4a8971e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/swat@Death From Front Headshot.fbx using Guid(ec54fe2e76e1bc84085e443ff4a8971e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8691f85dc93bedd9b88cba9c738651f4') in 0.209713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.576160 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/Death From Front Headshot.anim
-  artifactKey: Guid(8d15676048f5c0e48a3870828ec57677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/Death From Front Headshot.anim using Guid(8d15676048f5c0e48a3870828ec57677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b31bceec770f235d32dfbfc2c69f62') in 0.021670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 221.311464 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Stand To Crouch.fbx
-  artifactKey: Guid(601ad61cee21b8842ab233b732bbcb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/swat@Stand To Crouch.fbx using Guid(601ad61cee21b8842ab233b732bbcb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ba719f63ebb3bf9bf06b8245d82978') in 0.219354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.654681 seconds.
-  path: Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Stand To Crouch.anim
-  artifactKey: Guid(43c076a5672e0024cadfae186cd29020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Characters/animation/New folder/Rifle motion/crouch/Stand To Crouch.anim using Guid(43c076a5672e0024cadfae186cd29020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcfaea0917690ac00089d8748719bed') in 0.021713 seconds 
+  Time since last request: 23.446926 seconds.
+  path: Assets/Soldier_body1.mat
+  artifactKey: Guid(4f107dcff97258440b9ec01213eb7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soldier_body1.mat using Guid(4f107dcff97258440b9ec01213eb7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4fffe50539de100790b7b79de68cd3') in 0.058683 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
