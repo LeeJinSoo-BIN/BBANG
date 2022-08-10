@@ -9,10 +9,10 @@ public class control : MonoBehaviour
     
     float hAxis;
     float vAxis;
-    bool ak47;
-    bool handfull = false;
-    bool hand;
+    bool rifle;
+    bool pick_rifle = false;
     bool run;
+    bool fire;
     public float speed;
     Vector3 moveVec;
         
@@ -28,31 +28,30 @@ public class control : MonoBehaviour
         Move();
         Turn();
         Pick();
-
+        Fire();
     }
 
     void GetInput() // 키보드 값 받기
     {
         hAxis = Input.GetAxisRaw("Horizontal");
         vAxis = Input.GetAxisRaw("Vertical");
-        ak47 = Input.GetKey("1");
-        hand = Input.GetKey("3");
+        fire = Input.GetMouseButton(0);
+        
         run = Input.GetKey(KeyCode.LeftShift);
+        rifle = Input.GetKeyDown("1");        
+        
     }
 
     void Move()
     {
         moveVec = new Vector3(hAxis, 0, vAxis).normalized;
         transform.position += moveVec * speed * Time.deltaTime;
-        if(handfull){
-            anim.SetBool("walkHandFull", moveVec != Vector3.zero); // Walk 애니메이션 true
-        }
-        else{
-            anim.SetBool("walkNoHand", moveVec != Vector3.zero); // Walk 애니메이션 true
-        }
+        
+        anim.SetBool("walk", moveVec != Vector3.zero); // Walk 애니메이션 true
+        
         if(run){
             anim.SetBool("run",true);
-            speed = 1.2f;
+            speed = 2.5f;
         }
         else{
             anim.SetBool("run",false);
@@ -67,15 +66,18 @@ public class control : MonoBehaviour
 
     void Pick()
     {
-        // Jump하고 있는 상황에서 Jump 하지 않도록 방지
-        if (ak47) {
-            //rigid.AddForce(Vector3.up * 5, ForceMode.Impulse);
-            anim.SetTrigger("ak47"); // Jump Trigger true 설정
-            handfull = true;
+        
+        if (rifle) {
+            pick_rifle = !pick_rifle;
+            anim.SetBool("rifle", pick_rifle);
+            anim.SetBool("shoulder_rifle", pick_rifle);
         }
-        else if (hand){
-            handfull = false;
+        
+    }
+    void Fire(){
+        if(fire){
+            anim.SetTrigger("fire_rifle");
         }
     }
-    
+
 }
