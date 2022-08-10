@@ -15,7 +15,7 @@ C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61407
+50588
 Successfully changed project path to: C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
 C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/tjdnf/OneDrive/문서/GitHub/BBANG/BBANG_unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 78.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 143.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015131 seconds.
+Registered in 0.033804 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 138.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
+- Completed reload, in  1.253 seconds
 Domain Reload Profiling:
-	ReloadAssembly (678ms)
-		BeginReloadAssembly (128ms)
+	ReloadAssembly (1254ms)
+		BeginReloadAssembly (237ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (438ms)
-			LoadAssemblies (125ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (231ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (260ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (444ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021009 seconds.
+Registered in 0.024936 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnf\OneDrive\문서\GitHub\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tjdnf\OneDrive\문서\GitHub\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.165 seconds
+- Completed reload, in  3.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1166ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (3050ms)
+		BeginReloadAssembly (596ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (911ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2115ms)
+			LoadAssemblies (537ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (412ms)
+			SetupTypeCache (660ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (854ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (522ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (39ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (115ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3829.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 3.963600 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.165000 ms MarkObjects: 3.282800 ms  DeleteObjects: 0.100400 ms)
+Unloading 3369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.0 KB). Loaded Objects now: 3828.
+Memory consumption went from 116.4 MB to 116.2 MB.
+Total: 5.885900 ms (FindLiveObjects: 0.674400 ms CreateObjectMapping: 0.170600 ms MarkObjects: 4.852200 ms  DeleteObjects: 0.185600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,71 +162,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1334802.037953 seconds.
-  path: Assets/swat.fbx
-  artifactKey: Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/swat.fbx using Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616ccc08e3d4820fbc7ffb6eb1ac5f42') in 0.222815 seconds 
+  Time since last request: 1338743.176844 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/no aiming/Rifle Run.fbx
+  artifactKey: Guid(c50a161ab3ecb5a46961a437a5761f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/no aiming/Rifle Run.fbx using Guid(c50a161ab3ecb5a46961a437a5761f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13c516669d178442d3020f4dc32e65e') in 0.661672 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 91.749865 seconds.
-  path: Assets/warp.cs
-  artifactKey: Guid(5118ed477afb10d4dbfcd1b993f3c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/warp.cs using Guid(5118ed477afb10d4dbfcd1b993f3c21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee67135fafcf4cec8299633646b4280d') in 0.274353 seconds 
+  Time since last request: 0.729461 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/no aiming/mixamo.com.anim
+  artifactKey: Guid(f6f83e8c055e6fb45a7e12a866351da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/no aiming/mixamo.com.anim using Guid(f6f83e8c055e6fb45a7e12a866351da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da4bff60626ceb9ff60e21fba2e60da') in 0.021328 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.383338 seconds.
-  path: Assets/SurvivalStylizedCharacters/Assets
-  artifactKey: Guid(0ce695db1cf50f148af98db43f369759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SurvivalStylizedCharacters/Assets using Guid(0ce695db1cf50f148af98db43f369759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01173b19c394906b3360f57195f6c1f') in 0.006184 seconds 
+  Time since last request: 30.756466 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/no aiming/Rifle Run (in place).anim
+  artifactKey: Guid(f6f83e8c055e6fb45a7e12a866351da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/no aiming/Rifle Run (in place).anim using Guid(f6f83e8c055e6fb45a7e12a866351da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434b0843f80a9e8e28bde96ff437c58f') in 0.010403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.920992 seconds.
-  path: Assets/SurvivalStylizedCharacters/Assets/Models
-  artifactKey: Guid(0538c740700c22f499923787ffbf5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SurvivalStylizedCharacters/Assets/Models using Guid(0538c740700c22f499923787ffbf5c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eae3d5b0d699beb32fd623d349de82') in 0.007309 seconds 
+  Time since last request: 47.931631 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/Rifle Run (1).fbx
+  artifactKey: Guid(4434269e16900534d832ecb6717ff8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/Rifle Run (1).fbx using Guid(4434269e16900534d832ecb6717ff8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e5adc710942160f7fbc92cffedb305') in 0.223294 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.070476 seconds.
-  path: Assets/SurvivalStylizedCharacters/Assets/Models/background.fbx
-  artifactKey: Guid(8a16c04365653044ea5ee2ab2574df70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SurvivalStylizedCharacters/Assets/Models/background.fbx using Guid(8a16c04365653044ea5ee2ab2574df70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e54f8b3f1c9f15ad7fc271b634122a') in 0.026073 seconds 
+  Time since last request: 8.187234 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/mixamo.com.anim
+  artifactKey: Guid(e9f2dbbce7e0af24c8fbdadbd7a94f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/mixamo.com.anim using Guid(e9f2dbbce7e0af24c8fbdadbd7a94f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63855535fd4de3dc4c62b57d460e00c') in 0.015602 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.986693 seconds.
-  path: Assets/swat.fbx
-  artifactKey: Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/swat.fbx using Guid(58b34fbe9eb6969438747026022e22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee291a96db976bba0c290e7060628d0d') in 0.349677 seconds 
+  Time since last request: 34.338576 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/AimRifle Run (in place).anim
+  artifactKey: Guid(e9f2dbbce7e0af24c8fbdadbd7a94f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/AimRifle Run (in place).anim using Guid(e9f2dbbce7e0af24c8fbdadbd7a94f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e369412149571d4c65f1c77453b5d4') in 0.008299 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016347 seconds.
-  path: Assets/Soldier_head_diffuse.png
-  artifactKey: Guid(61291f8d4c2d2854bae80d1c54d4db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soldier_head_diffuse.png using Guid(61291f8d4c2d2854bae80d1c54d4db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf96c61800c52edf68d38b6278869acb') in 0.137601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Soldier_head_specular.png
-  artifactKey: Guid(21d386aa30e11cd42b69546f75fe1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soldier_head_specular.png using Guid(21d386aa30e11cd42b69546f75fe1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543b14fc4733761144c4c48a67988b77') in 0.026705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Soldier_Body_normal.png
-  artifactKey: Guid(21ddf53cb5a8b0649b1b5f56e88ab177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soldier_Body_normal.png using Guid(21ddf53cb5a8b0649b1b5f56e88ab177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02399c9a622342297497005456a56c7') in 0.022997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Soldier_Body_specular.png
-  artifactKey: Guid(cbc3aa7d64dcc58498ed73312dfd20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soldier_Body_specular.png using Guid(cbc3aa7d64dcc58498ed73312dfd20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55889e5a7512062aa085b6e6c73b26fc') in 0.028625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.446926 seconds.
-  path: Assets/Soldier_body1.mat
-  artifactKey: Guid(4f107dcff97258440b9ec01213eb7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Soldier_body1.mat using Guid(4f107dcff97258440b9ec01213eb7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4fffe50539de100790b7b79de68cd3') in 0.058683 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 13.241787 seconds.
+  path: Assets/Prefabs/New characters/animation/New folder/Rifle motion/Aiming Rifle Run (in place).anim
+  artifactKey: Guid(e9f2dbbce7e0af24c8fbdadbd7a94f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New characters/animation/New folder/Rifle motion/Aiming Rifle Run (in place).anim using Guid(e9f2dbbce7e0af24c8fbdadbd7a94f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec0149885bebd1ef6347d446de2a72b') in 0.011179 seconds 
