@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/DamageCircle.cs"
 "Assets/Enviroment/enviroment/Office building/scripts/Door.cs"
 "Assets/Enviroment/enviroment/Office building/scripts/DoorAction.cs"
 "Assets/Enviroment/enviroment/Office building/scripts/evelator_controll.cs"
@@ -358,6 +359,7 @@
 "Assets/FurnishedCabin/Scripts/MoveObjectController.cs"
 "Assets/FurnishedCabin/Scripts/Player/PlayerLook.cs"
 "Assets/FurnishedCabin/Scripts/Player/PlayerMove.cs"
+"Assets/ParticleLight/Scripts/UVScroller_C.cs"
 -langversion:9.0
 
 /deterministic
