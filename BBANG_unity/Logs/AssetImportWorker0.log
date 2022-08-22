@@ -1,0 +1,1929 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'ko' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\msyang\Desktop\BBANGMAP\BBANG\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59101
+Successfully changed project path to: C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 394.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/git/BBANG/BBANG_unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   30.0.100.9805
+Initialize mono
+Mono path[0] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026886 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 221.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.571 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1573ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1101ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (668ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (222ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016376 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3332ms)
+		BeginReloadAssembly (371ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2547ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (845ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (170ms)
+			SetupLoadedEditorAssemblies (1144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (289ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.0 KB). Loaded Objects now: 3874.
+Memory consumption went from 138.8 MB to 138.8 MB.
+Total: 12.765200 ms (FindLiveObjects: 5.618900 ms CreateObjectMapping: 0.242200 ms MarkObjects: 6.777800 ms  DeleteObjects: 0.124600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 610635.033621 seconds.
+  path: Assets/MAP ASSETS/Terrians.prefab
+  artifactKey: Guid(34d2207302e1e154d9fa7d73e7df6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAP ASSETS/Terrians.prefab using Guid(34d2207302e1e154d9fa7d73e7df6f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15a9d54fcf3ce5768dda11427b5cf25') in 0.487924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.924930 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(44be43e5970d3f3488c9894dc53bbe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(44be43e5970d3f3488c9894dc53bbe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60528fcd08b8cf43dde9ae716d5f66d') in 0.012886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.902748 seconds.
+  path: Assets/New Folder/hamburger.prefab
+  artifactKey: Guid(6970c31a8d5903b41a1421ce4c25af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/hamburger.prefab using Guid(6970c31a8d5903b41a1421ce4c25af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b3c68446b403e07a35a1db2ab57597') in 0.999918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399900 seconds.
+  path: Assets/New Folder/circle.prefab
+  artifactKey: Guid(a9bea12f26275da4ea9fdb09179631c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/circle.prefab using Guid(a9bea12f26275da4ea9fdb09179631c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c112408cfd2c9ce7aede8c6dff4df') in 0.129213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.367304 seconds.
+  path: Assets/New Folder/house.prefab
+  artifactKey: Guid(e0d9ed0d8f8d6f540b6020881d449913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/house.prefab using Guid(e0d9ed0d8f8d6f540b6020881d449913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db77aef2c8f34cc62ab9ac550785f47a') in 1.465203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.488193 seconds.
+  path: Assets/New Folder/parking_lot.prefab
+  artifactKey: Guid(d716332ac3389ba459cdd5142e7596a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/parking_lot.prefab using Guid(d716332ac3389ba459cdd5142e7596a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba15304b22e29f2437b4fe7e064f6f8') in 0.842093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.735873 seconds.
+  path: Assets/New Folder/PARK.prefab
+  artifactKey: Guid(cd14129c58496f548892e4c5bf0955af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/PARK.prefab using Guid(cd14129c58496f548892e4c5bf0955af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be69134aea9be0bb7b35d2b3f840a2dd') in 1.089338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.387892 seconds.
+  path: Assets/New Folder/school.prefab
+  artifactKey: Guid(d3c5ea33b8e65404a9e8af78a18f76e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/school.prefab using Guid(d3c5ea33b8e65404a9e8af78a18f76e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2c13f0e59f05d4fb7d4a0084536dfd') in 0.598986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.644401 seconds.
+  path: Assets/New Folder/towerzone.prefab
+  artifactKey: Guid(8b94889a5de619148a30854c40286017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/towerzone.prefab using Guid(8b94889a5de619148a30854c40286017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce0c5fa6ed7aae4d6741d474a353ca1') in 0.753672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.896499 seconds.
+  path: Assets/New Folder/STATUE.prefab
+  artifactKey: Guid(0ecc7c4786732d34fa4a4eb7dc882d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/STATUE.prefab using Guid(0ecc7c4786732d34fa4a4eb7dc882d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30a29cb4256ad5387e1a992b4009b8f') in 0.123305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.857762 seconds.
+  path: Assets/New Folder/streetobject.prefab
+  artifactKey: Guid(cba46a9de04f00643837ae0a7b8462ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/streetobject.prefab using Guid(cba46a9de04f00643837ae0a7b8462ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb3c2319a9fa598c721f8ea5f6eacbb') in 1.201811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.712508 seconds.
+  path: Assets/New Folder/PLAYGROUND.prefab
+  artifactKey: Guid(1fa9df4856128ab47ab44449eb736dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/PLAYGROUND.prefab using Guid(1fa9df4856128ab47ab44449eb736dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900fdb09a3ec2c2a7af0fd0f4145fda3') in 0.754718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.802885 seconds.
+  path: Assets/Building FastFood Drinks/Drink_Sign.png
+  artifactKey: Guid(72c1305b9f5654c4e9e0ae28e5aa8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Drink_Sign.png using Guid(72c1305b9f5654c4e9e0ae28e5aa8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4a410c449ed8b3378b3a92c4b300cd') in 0.099533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.468945 seconds.
+  path: Assets/BBANG_ASSET/hamburger.prefab
+  artifactKey: Guid(6970c31a8d5903b41a1421ce4c25af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BBANG_ASSET/hamburger.prefab using Guid(6970c31a8d5903b41a1421ce4c25af58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dceb8253e19985a4574efa376ab60f6') in 0.053169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.959129 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_floor.mat
+  artifactKey: Guid(249810e02b5b82e459309ff015c9d014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_floor.mat using Guid(249810e02b5b82e459309ff015c9d014) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ff68dd1948d398b6e95813bd89fc87f') in 0.289897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SmartChannel18/Container&Boxes
+  artifactKey: Guid(bea69aa8978cacf4089d858c415936da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SmartChannel18/Container&Boxes using Guid(bea69aa8978cacf4089d858c415936da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25e78d08a86e4e482772541264f34386') in 0.021532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b2f666022fdca8446834fd17dc8dd4f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain.asset using Guid(b2f666022fdca8446834fd17dc8dd4f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1d0d53d8f4ada0b0450c5c8015c4216') in 0.061362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Statue Bear Rough Bronze/Materials/Default.mat
+  artifactKey: Guid(b8b5cb3fbc88e6449bccd8c919c4ffae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Statue Bear Rough Bronze/Materials/Default.mat using Guid(b8b5cb3fbc88e6449bccd8c919c4ffae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8a7172a4ab1eb8224499d31dd1b0672') in 0.029073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Mobile/Bus_1.prefab
+  artifactKey: Guid(6717c7c2d677a9f439f502029ec5b22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Mobile/Bus_1.prefab using Guid(6717c7c2d677a9f439f502029ec5b22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a87a0aa129de8b836e536b10873db2ba') in 0.073477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Mobile
+  artifactKey: Guid(12cd57cac8700c442880dfd348d8c4dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Mobile using Guid(12cd57cac8700c442880dfd348d8c4dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '390dc2cfb260a194745625fa5dbcab68') in 0.022293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Simple Vehicle Pack/Models/Materials/Material #23.mat
+  artifactKey: Guid(bdd79651c2f4e1f4ab34b108fd8d866a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Models/Materials/Material #23.mat using Guid(bdd79651c2f4e1f4ab34b108fd8d866a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '720163d83211b733f9d3ca41a5790655') in 0.017148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TowerPack/Models/Tower2/Textures/map1.png
+  artifactKey: Guid(413cc5b71fe209d43a02140682cbaa1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2/Textures/map1.png using Guid(413cc5b71fe209d43a02140682cbaa1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '311cf4ec6bfe548539be4629ce6f2eab') in 0.071256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Single_detailed_truck/Textures/truck_color_01.bmp
+  artifactKey: Guid(d87c65362d364024aae9a5fd4eb2b9ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/Textures/truck_color_01.bmp using Guid(d87c65362d364024aae9a5fd4eb2b9ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '388e18480376abd4c8f64c0d16ab06f2') in 0.124462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs
+  artifactKey: Guid(24f2c341cec0b5449866cc1e55270d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs using Guid(24f2c341cec0b5449866cc1e55270d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a98556cf525c2b155f1f9e3161134f9a') in 0.025119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Single_detailed_truck/readme.txt
+  artifactKey: Guid(5a89f088a4855fc4cbe27249a44b05e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/readme.txt using Guid(5a89f088a4855fc4cbe27249a44b05e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f29a599e114367e390280670b1552bf8') in 0.044484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(d7968033719c6d940808b444bba7604f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer.terrainlayer using Guid(d7968033719c6d940808b444bba7604f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db40af0ca95afbaf163527d435921773') in 0.050721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Statue Bear Rough Bronze/Materials
+  artifactKey: Guid(fb3f1af230291c146924213985a2a369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Statue Bear Rough Bronze/Materials using Guid(fb3f1af230291c146924213985a2a369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5af80bbd9e4592c73f1127991f57e940') in 0.016754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TowerPack/Models/Tower6/Materials/map14.mat
+  artifactKey: Guid(015e11b4ea0776247aa2351c40d7f6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Materials/map14.mat using Guid(015e11b4ea0776247aa2351c40d7f6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01ba4be62d128ef1b89596d194259dfb') in 0.033810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Simple Vehicle Pack/Textures/Mobile
+  artifactKey: Guid(370a12a1ae96ba043a3f49ec72a81e30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Textures/Mobile using Guid(370a12a1ae96ba043a3f49ec72a81e30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28e1c4da188b0fe69ef127c1ee35269b') in 0.026385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_4.prefab
+  artifactKey: Guid(ab26596a331d7ee43a3e9d29e2be9f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_4.prefab using Guid(ab26596a331d7ee43a3e9d29e2be9f84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '885cea2b904209a9d47401f23fb80881') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-metal_chromed.mat
+  artifactKey: Guid(31f17fa2e81691146b6a8ffa334b3446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-metal_chromed.mat using Guid(31f17fa2e81691146b6a8ffa334b3446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e719f15876b59a8696477ee97888db8f') in 0.035809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials
+  artifactKey: Guid(a631ae8d004729045b3ae74c0b47cccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials using Guid(a631ae8d004729045b3ae74c0b47cccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50ff61c3889af56445ef177888014cf2') in 0.017493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TowerPack/Models/Tower3/Tower3.prefab
+  artifactKey: Guid(554884173cce2894a9bd2ecb43a5b838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Tower3.prefab using Guid(554884173cce2894a9bd2ecb43a5b838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0a7fa4c8519d12619a84bf4e17f3012') in 0.018534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Police_car.prefab
+  artifactKey: Guid(f463242ba59e68243b7a693d4f0cfc18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Police_car.prefab using Guid(f463242ba59e68243b7a693d4f0cfc18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f19f480c04b42b5fe53867d0dde681b') in 0.019225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/truck.fbx
+  artifactKey: Guid(9da17e46af819d046b9cbf7728de49a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/truck.fbx using Guid(9da17e46af819d046b9cbf7728de49a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4023ffe5586590db6507dfb03f93c488') in 0.173666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu_smooth.mat
+  artifactKey: Guid(39cd26f538c82244b94375407e8e5f77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu_smooth.mat using Guid(39cd26f538c82244b94375407e8e5f77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcd48d0a1c5993f4db18bfd2262a6093') in 0.030205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_main_color.mat
+  artifactKey: Guid(b7d51ee4159dca94eb79326b47fd32a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-trailer_main_color.mat using Guid(b7d51ee4159dca94eb79326b47fd32a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fed6e83c8471c5fc8b06fc5b487be30f') in 0.037673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map3.bmp
+  artifactKey: Guid(a818712c380f8ac4594fe6b6f5fb2054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map3.bmp using Guid(a818712c380f8ac4594fe6b6f5fb2054) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dfde6e7b06027009dbe33acd789997f') in 0.049772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map9.bmp
+  artifactKey: Guid(5df846a7fba95364b94cd69f2c80e3e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map9.bmp using Guid(5df846a7fba95364b94cd69f2c80e3e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce68dea1820c5793d97f8be1a8fa71ef') in 0.043804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower10/Textures/map5.bmp
+  artifactKey: Guid(5e5271d568e12d143b20674fa8f533e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Textures/map5.bmp using Guid(5e5271d568e12d143b20674fa8f533e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0868ab812de610430330dce6952fd97d') in 0.042814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SmartChannel18/Container&Boxes/Materials/Box 2.mat
+  artifactKey: Guid(4f3de1e15dfefcc46b6391d18806ff90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/SmartChannel18/Container&Boxes/Materials/Box 2.mat using Guid(4f3de1e15dfefcc46b6391d18806ff90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccddaa6f0644c8dacdcec2c3c887ff02') in 0.036952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Enviroment/enviroment/Office building/Prefabs/office building Prefab.prefab
+  artifactKey: Guid(e2e6970f9dbe45743858950d9b85475f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enviroment/enviroment/Office building/Prefabs/office building Prefab.prefab using Guid(e2e6970f9dbe45743858950d9b85475f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48f2c4b8bb2543dca2a917487902db7b') in 0.178822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map13.png
+  artifactKey: Guid(2a8c41108689d34489a21cb4823e5210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map13.png using Guid(2a8c41108689d34489a21cb4823e5210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acccf7ac20b120d1701e35d418afcd79') in 0.048578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TowerPack/Other
+  artifactKey: Guid(fa3e745db770a204f93d450fc092c0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Other using Guid(fa3e745db770a204f93d450fc092c0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15b01ce3442a0ddca104ac9048b85842') in 0.017516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures/map7.bmp
+  artifactKey: Guid(e19eaeb87cd5ef140a8d7a278bad85f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures/map7.bmp using Guid(e19eaeb87cd5ef140a8d7a278bad85f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2215d91a73d9d218eaf00eb11d0d918e') in 0.042007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TowerPack
+  artifactKey: Guid(ae3b92c16d1dbcb46b7ef327cfdaeb6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack using Guid(ae3b92c16d1dbcb46b7ef327cfdaeb6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dd9b513944423b1fb7c56fc3c90e004') in 0.019874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials
+  artifactKey: Guid(e70840bf140265141b3c343d8ef2828a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials using Guid(e70840bf140265141b3c343d8ef2828a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0439d9ac846834c997bbf6a092f4be2d') in 0.019394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002802 seconds.
+  path: Assets/TowerPack/Models/Tower5/Materials/map10.mat
+  artifactKey: Guid(b3004f5c0ecfd644ea9d6414c61a7563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Materials/map10.mat using Guid(b3004f5c0ecfd644ea9d6414c61a7563) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4b3904b382634f69019be3abad3c6d7') in 0.023354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map4.mat
+  artifactKey: Guid(173f429add66718418cf5e60cd9764ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map4.mat using Guid(173f429add66718418cf5e60cd9764ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82e43fde22354cac49ba5505c13f596e') in 0.025408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TowerPack/Models/Tower10/Textures/map9.bmp
+  artifactKey: Guid(dfe166aa6f1e3a04798b37712f39ccfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Textures/map9.bmp using Guid(dfe166aa6f1e3a04798b37712f39ccfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7fabd5ee9d7cc05d760fd765bca74e0') in 0.055055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TowerPack/Other/Materials/Ground.mat
+  artifactKey: Guid(791c3f785b4adeb48b7fd65453fffbf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Other/Materials/Ground.mat using Guid(791c3f785b4adeb48b7fd65453fffbf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '757e2df7022129315a86c18b3ee29734') in 0.022330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Simple Vehicle Pack/Demo_scene.unity
+  artifactKey: Guid(506b4ac321e63974fafc66c23659ffe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Demo_scene.unity using Guid(506b4ac321e63974fafc66c23659ffe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '833d8d766c229d5f2754a5f2a23362b6') in 0.031508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures
+  artifactKey: Guid(9935ad9aad5de2e43bc10878f491442a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures using Guid(9935ad9aad5de2e43bc10878f491442a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79f651f50b0c2bcfe3710446843a93c0') in 0.013865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures/map1.bmp
+  artifactKey: Guid(85dfebe1c731fbb45bc9a47b05bcb850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures/map1.bmp using Guid(85dfebe1c731fbb45bc9a47b05bcb850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0dfb1937ebf2da724a6b267647e084b4') in 0.041796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_1.prefab
+  artifactKey: Guid(0ae65270c30153049ab49eb3ebf070d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_1.prefab using Guid(0ae65270c30153049ab49eb3ebf070d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2780293fd3611e78ad6e5e5d552e7a7') in 0.031469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures/map8.bmp
+  artifactKey: Guid(45bbc889376b47542a7e72b99cbebaa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures/map8.bmp using Guid(45bbc889376b47542a7e72b99cbebaa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37940cda8cb5fd8bfa79f79e18943cc7') in 0.023602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials/map6.mat
+  artifactKey: Guid(105e67d0ef6bf5a49a026cdabcbef841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials/map6.mat using Guid(105e67d0ef6bf5a49a026cdabcbef841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0a088d4a06b15f7c8e63334f25b436b') in 0.027020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map6.bmp
+  artifactKey: Guid(8b6222f98a42f3a478808f693361a064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map6.bmp using Guid(8b6222f98a42f3a478808f693361a064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a5f838d7241c53cb84c8bf134ec6ccc') in 0.043317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower7
+  artifactKey: Guid(dbefe29b970021b40b0f5379046a1d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7 using Guid(dbefe29b970021b40b0f5379046a1d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e011bd15cb7391df48348d2f229e9c0c') in 0.023572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures/map5.bmp
+  artifactKey: Guid(819bfe0860a27864ea1327236b7750d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures/map5.bmp using Guid(819bfe0860a27864ea1327236b7750d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e620f86cd84db9da4773611ffc777637') in 0.034130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Statue Bear Rough Bronze/Prefabs
+  artifactKey: Guid(f1ffd591fe106764ab6bbb9abd7b5a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Statue Bear Rough Bronze/Prefabs using Guid(f1ffd591fe106764ab6bbb9abd7b5a7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897f7c04f5c38c1b59ebd01d78445a1c') in 0.023758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map7.mat
+  artifactKey: Guid(3acca51e75c3ac542bb46a79656a4987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map7.mat using Guid(3acca51e75c3ac542bb46a79656a4987) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab6769674559066b623dddbb3e8c31ff') in 0.020338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower8
+  artifactKey: Guid(7e950d57038b5a047ac32a9a9abf05d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8 using Guid(7e950d57038b5a047ac32a9a9abf05d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1bdce5b4545dbc2c88632b810441acc') in 0.022444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010026 seconds.
+  path: Assets/Single_detailed_truck/Textures/trailer_color_01.bmp
+  artifactKey: Guid(b13b91fa1aea9ed4a891cadbf146484c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/Textures/trailer_color_01.bmp using Guid(b13b91fa1aea9ed4a891cadbf146484c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '897855ab2eaee54cf17393ab1cfc17bb') in 0.047240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower6/Materials/map4.mat
+  artifactKey: Guid(fc97eebbe1c2d9d4da39f5b5f7017d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Materials/map4.mat using Guid(fc97eebbe1c2d9d4da39f5b5f7017d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8ca20d68bf2960f3d9645f0e77fda37') in 0.022260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Simple Vehicle Pack/Materials/Cars_1.mat
+  artifactKey: Guid(d1609d52f4f81da40955e6165cb60e78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Materials/Cars_1.mat using Guid(d1609d52f4f81da40955e6165cb60e78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '619742f4965f3ed3327475b9803bbadb') in 0.068001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TowerPack/Models/Tower7/Textures/map9.bmp
+  artifactKey: Guid(95cbbdf8fd265054cbf1b997d9d8b7de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Textures/map9.bmp using Guid(95cbbdf8fd265054cbf1b997d9d8b7de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e53887fec70bd2d8e8e35629ffec533') in 0.045388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials
+  artifactKey: Guid(44ce9e772f70a0b49becaea1e7624403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials using Guid(44ce9e772f70a0b49becaea1e7624403) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '029d3018f682db02a80a3dccded7d26d') in 0.015599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-alu.mat
+  artifactKey: Guid(04be3762ecd746241aa675994d809d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-alu.mat using Guid(04be3762ecd746241aa675994d809d49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cfad0f9dd970fee5c70be6e7e02872b') in 0.044945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures/map3.bmp
+  artifactKey: Guid(cd5163a1292ed014b814fa32ae37ae5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures/map3.bmp using Guid(cd5163a1292ed014b814fa32ae37ae5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e69ed2202bcbd2197c6863fbb3728c1') in 0.040016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map3.mat
+  artifactKey: Guid(c94a9dce7bce9454a87a11426222ebfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map3.mat using Guid(c94a9dce7bce9454a87a11426222ebfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0be1e9725e6471e9e1c0fd40f8e120ba') in 0.171739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map7.mat
+  artifactKey: Guid(39e6da2f5affb3a4eab97bc60e052886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map7.mat using Guid(39e6da2f5affb3a4eab97bc60e052886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b28d017bfed444b0c1c24d7783119b78') in 0.053887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Single_detailed_truck/Prefabs/Trailer.prefab
+  artifactKey: Guid(824b045cfb5412444a2d59824cb98223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/Prefabs/Trailer.prefab using Guid(824b045cfb5412444a2d59824cb98223) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '949564b06f75a9634a6ab9689b8ea5ec') in 0.082578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map5.bmp
+  artifactKey: Guid(50267965f23935c429ffbcf2b051ddb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map5.bmp using Guid(50267965f23935c429ffbcf2b051ddb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '044e32f8ee64daf21c3fead2b1781924') in 0.036317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TowerPack/Simple.unity
+  artifactKey: Guid(bf830146d4273764894fe520e75f4113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Simple.unity using Guid(bf830146d4273764894fe520e75f4113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6f8f836d59e80612e27fc7235a90046') in 0.023750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map10.mat
+  artifactKey: Guid(289762455e346d246a3f86cb754b47a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map10.mat using Guid(289762455e346d246a3f86cb754b47a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2eecd3c78173ed7b0d0ce9546d5a31f7') in 0.016158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Simple Vehicle Pack/Materials/Mobile/Cars_2.mat
+  artifactKey: Guid(d1afc0f29c2ef644699e804c1052b999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Materials/Mobile/Cars_2.mat using Guid(d1afc0f29c2ef644699e804c1052b999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2991527f7bd8e18a38f338243390dfd3') in 0.093034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials
+  artifactKey: Guid(4634be39e8213194888fae47e162868f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Materials using Guid(4634be39e8213194888fae47e162868f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d0b8945e0b729930e9a51b09d4bec66') in 0.018930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006942 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map4.bmp
+  artifactKey: Guid(c977c3684d1fd6041a3a772ee338f0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map4.bmp using Guid(c977c3684d1fd6041a3a772ee338f0b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12524bec156b56038ab0a41142620725') in 0.045566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-wheels_metal.mat
+  artifactKey: Guid(4a26c5024b47f1c489c19d623c479c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-wheels_metal.mat using Guid(4a26c5024b47f1c489c19d623c479c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c98bff1d02cf9da4359acf3634a497f4') in 0.090878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/TowerPack/Models/Tower10/Textures/map3.bmp
+  artifactKey: Guid(5d6e4bd418b8ef7439d17924e2424626) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Textures/map3.bmp using Guid(5d6e4bd418b8ef7439d17924e2424626) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd82ed52e832870c21ad3152c69ecc37e') in 0.090838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials/map1.mat
+  artifactKey: Guid(bda5cfc5f16981f47a97239df783c929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials/map1.mat using Guid(bda5cfc5f16981f47a97239df783c929) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae4df57e9bd83e0bf95632c06d9a8c75') in 0.038111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map4.mat
+  artifactKey: Guid(4a3293efe8e95284f8b7376ab9e3d641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map4.mat using Guid(4a3293efe8e95284f8b7376ab9e3d641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c533e37f0921fdb83a6b08877f2af42e') in 0.036567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map11.bmp
+  artifactKey: Guid(262e0f75a79137f4ea59eb3d828aacf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map11.bmp using Guid(262e0f75a79137f4ea59eb3d828aacf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55feadc83eb51c6f8eb754c32469b65a') in 0.075520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map6.mat
+  artifactKey: Guid(5dddca3fdcffa1b40ab471ea2c4b0017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map6.mat using Guid(5dddca3fdcffa1b40ab471ea2c4b0017) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4c9cb8544b79ae77e38677d2c957861') in 0.016197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TowerPack/Perfabs/Tower2.prefab
+  artifactKey: Guid(666eb5b29cb0f8f48b451cca6c5647f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Perfabs/Tower2.prefab using Guid(666eb5b29cb0f8f48b451cca6c5647f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68aa3d15afb3cc9be70494997c5ef66d') in 0.016799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple Vehicle Pack/Materials/Mobile/Road.mat
+  artifactKey: Guid(4acac59ed0a644b4f854d5a6875dd8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Materials/Mobile/Road.mat using Guid(4acac59ed0a644b4f854d5a6875dd8e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58c98ecd7263a47a3c61b53bad4490d9') in 0.046933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Car_2.prefab
+  artifactKey: Guid(2dc42346e5313b34c93d598a61994629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Car_2.prefab using Guid(2dc42346e5313b34c93d598a61994629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c85cd4b38a99fe2e54fc2d9ec8e398fc') in 0.015444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Single_detailed_truck/Textures/trailer_color_03.bmp
+  artifactKey: Guid(14243086c54812a4eb92569165dbedf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/Textures/trailer_color_03.bmp using Guid(14243086c54812a4eb92569165dbedf6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38273334714e12ce00f863963cbc90b5') in 0.038161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-windows.mat
+  artifactKey: Guid(31e56c7393d73c4499aa6ed85a444235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/truck-windows.mat using Guid(31e56c7393d73c4499aa6ed85a444235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4adaec6c02fd66721833a885fa25e78e') in 0.021554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map11.mat
+  artifactKey: Guid(3769ffc5d69dd4348aa3ef1f11a57145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map11.mat using Guid(3769ffc5d69dd4348aa3ef1f11a57145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '359331fa60b98ff183e6132087ca4480') in 0.012244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TowerPack/Models/Tower7/Textures/map7.bmp
+  artifactKey: Guid(0fa3bee8bcb698d44bae4172c43f2784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Textures/map7.bmp using Guid(0fa3bee8bcb698d44bae4172c43f2784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c236eef0e45dc059c09362b4f98407f2') in 0.023435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map10.mat
+  artifactKey: Guid(e918891614ef6a4459061e2e5c1edfc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map10.mat using Guid(e918891614ef6a4459061e2e5c1edfc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59ba3bd27720dde76f495c55611a317b') in 0.015963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map9.bmp
+  artifactKey: Guid(2978fd071fe927e478f3bfaa6fe0415b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map9.bmp using Guid(2978fd071fe927e478f3bfaa6fe0415b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66108f51563c1b419691d9d9567ae0a6') in 0.019927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TowerPack/Models/Tower7/Textures/map8.bmp
+  artifactKey: Guid(ada508fab9b22d24789c259ca9c68a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Textures/map8.bmp using Guid(ada508fab9b22d24789c259ca9c68a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f1afb57194a0fbb061b4f6903629670') in 0.028682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower5/Textures/map1.bmp
+  artifactKey: Guid(1a99baf1099f0944588e3c8d336a8ecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Textures/map1.bmp using Guid(1a99baf1099f0944588e3c8d336a8ecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79c108ebaad8c7f3233b6b69ab949c00') in 0.023701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TowerPack/Models/Tower6/Materials/map3.mat
+  artifactKey: Guid(233ca6623dc9b7a4188905d51dd047e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Materials/map3.mat using Guid(233ca6623dc9b7a4188905d51dd047e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b7ac1375240a1690e9d04ff93fe7da3') in 0.012481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map3.mat
+  artifactKey: Guid(18a7cafe1b0e7ca4a9fea060bb4056a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map3.mat using Guid(18a7cafe1b0e7ca4a9fea060bb4056a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0542fbde5fea4e49b683681b61a2130d') in 0.018265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map11.bmp
+  artifactKey: Guid(c68944e870c6c804e9f123000a69fac2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map11.bmp using Guid(c68944e870c6c804e9f123000a69fac2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90b1556fd47800d8a886348f69b8d6a9') in 0.039070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map5.bmp
+  artifactKey: Guid(0a6816dd97213624b9c5491ecd6f2f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map5.bmp using Guid(0a6816dd97213624b9c5491ecd6f2f90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97cdfe06873fe51cf665e2d81390c2ad') in 0.030934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map12.mat
+  artifactKey: Guid(52da6bcc06ed5e44fb6154e4082972a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map12.mat using Guid(52da6bcc06ed5e44fb6154e4082972a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8fa29864e9163995e0a9739347a9982') in 0.023123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TowerPack/Models/Tower5/Materials/map1.mat
+  artifactKey: Guid(736ee0dbc942adf45b7b31281185c368) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Materials/map1.mat using Guid(736ee0dbc942adf45b7b31281185c368) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2734f88ea0df02a10df1b7f23acacc44') in 0.018158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures/map11.bmp
+  artifactKey: Guid(e59969c93c25bd4459585c383471da25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures/map11.bmp using Guid(e59969c93c25bd4459585c383471da25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cf0b2dcef55874f57f519c82b1156fd') in 0.041214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map6.bmp
+  artifactKey: Guid(adaea16d0aaf2bd4191921d4014b5e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map6.bmp using Guid(adaea16d0aaf2bd4191921d4014b5e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d2a758ccf2231787c5497b456a648db') in 0.037625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map9.bmp
+  artifactKey: Guid(d57939bc0869cd14590e479407d5c263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map9.bmp using Guid(d57939bc0869cd14590e479407d5c263) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00f78c7c2dc953f23ef4a0dc7e7447a5') in 0.057586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map4.mat
+  artifactKey: Guid(47f77edec6b2de5409e3f7c108521e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map4.mat using Guid(47f77edec6b2de5409e3f7c108521e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf05b914e86cec96778a7a49df7d7098') in 0.018677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TowerPack/Models/Tower2/Textures/map5.png
+  artifactKey: Guid(cc1a79d2b846e7540aafc49cc2cdba95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2/Textures/map5.png using Guid(cc1a79d2b846e7540aafc49cc2cdba95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd564452710433cc4f873616082bbbdb6') in 0.051693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003519 seconds.
+  path: Assets/TowerPack/Models/Tower10
+  artifactKey: Guid(9ac1afcdec508f145beeab7474cb30ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10 using Guid(9ac1afcdec508f145beeab7474cb30ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5256999c044d7639ded08fea03acea40') in 0.022536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TowerPack/Models/Tower10/Tower10.FBX
+  artifactKey: Guid(29942c2bb197e22498c67f302adbea40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Tower10.FBX using Guid(29942c2bb197e22498c67f302adbea40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72cab25006dcaade7fb56b5bce85d93c') in 0.061980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map6.bmp
+  artifactKey: Guid(1ff917c1a3fa4a149986f38a61872293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map6.bmp using Guid(1ff917c1a3fa4a149986f38a61872293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '653504acee083c9200a5e91f542139d3') in 0.043668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map5.bmp
+  artifactKey: Guid(8e13e66f97955634ba5371d9b1462a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map5.bmp using Guid(8e13e66f97955634ba5371d9b1462a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b13bc632204906b375da7d907f400a96') in 0.041736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map16.bmp
+  artifactKey: Guid(447e82eed7441b240a917cbed71f2fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map16.bmp using Guid(447e82eed7441b240a917cbed71f2fdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e57c8d53c18af0524796a8d45a2777c1') in 0.055321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TowerPack/Models/Tower7/Tower7.prefab
+  artifactKey: Guid(a1eb16622a3ed9f4bb341745ac0879a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Tower7.prefab using Guid(a1eb16622a3ed9f4bb341745ac0879a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aff66f4c668b1856dd314a14869dfad') in 0.026815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower5/Materials/map8.mat
+  artifactKey: Guid(618ecc364e4255240944e1ba4b0e1705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Materials/map8.mat using Guid(618ecc364e4255240944e1ba4b0e1705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '849af28f73a3b4675a6812052f4d4fcd') in 0.018161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map2.bmp
+  artifactKey: Guid(21ef8bffd2f4d064d9e2536509aa8108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map2.bmp using Guid(21ef8bffd2f4d064d9e2536509aa8108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29fba28332722d1b05520e53477cf3d0') in 0.028344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower2/Textures/map4.bmp
+  artifactKey: Guid(f804e2519373dd743a30ae0290242f3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2/Textures/map4.bmp using Guid(f804e2519373dd743a30ae0290242f3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '497c8da41317948f9d57c5d183c6e92d') in 0.032491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map14.mat
+  artifactKey: Guid(cf44ac4c8898cd6468a3d203a634cae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map14.mat using Guid(cf44ac4c8898cd6468a3d203a634cae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4012b7734d782880113d2a48feaa6a79') in 0.023120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map4.mat
+  artifactKey: Guid(d4536a44a85464c43b5fe511c8db74ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map4.mat using Guid(d4536a44a85464c43b5fe511c8db74ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b7dcf921ab59d36417f6809f78fa175') in 0.022335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map2.bmp
+  artifactKey: Guid(f762cb2d1f852d046a3bd5bcb6f669d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map2.bmp using Guid(f762cb2d1f852d046a3bd5bcb6f669d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59cfe5e1372d366c56330b89ccd6c2f1') in 0.050572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map4.mat
+  artifactKey: Guid(b29ea77f4cf2ebf4ebd7288340bea379) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map4.mat using Guid(b29ea77f4cf2ebf4ebd7288340bea379) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da1fac6f7eeef2ea19c6f889c25845bf') in 0.019010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TowerPack/Models/Tower7/Materials/map1.mat
+  artifactKey: Guid(c3a6fbf83a479af4787dc8b7eaba6b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Materials/map1.mat using Guid(c3a6fbf83a479af4787dc8b7eaba6b51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea26fae22ef640f15eb5f36921157d44') in 0.020406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map7.bmp
+  artifactKey: Guid(a8becb89e1a1af94fb6b209f08848d22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map7.bmp using Guid(a8becb89e1a1af94fb6b209f08848d22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '190efbdbace821d1d3d4dfc19163cdea') in 0.028958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TowerPack/Models/Tower6/Textures/map14.bmp
+  artifactKey: Guid(e56d0ba40a4a4194b899460f8149b383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Textures/map14.bmp using Guid(e56d0ba40a4a4194b899460f8149b383) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd91b73a859c542c871b263bdf4a43105') in 0.038922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map5.mat
+  artifactKey: Guid(e0189974260f2264fbce625addddd5b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map5.mat using Guid(e0189974260f2264fbce625addddd5b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1483715fee4e45f6ef50a76799e642f6') in 0.023263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TowerPack/Models/Tower6/Textures/map8.bmp
+  artifactKey: Guid(c6830c3c5c841194cacf9668bb09a04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Textures/map8.bmp using Guid(c6830c3c5c841194cacf9668bb09a04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27626f6f4774fbaa67a4f822982d4485') in 0.052574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map3.bmp
+  artifactKey: Guid(e90af3dc9c2ac434a93feaef12d15627) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map3.bmp using Guid(e90af3dc9c2ac434a93feaef12d15627) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ae3a3b5f0ccc140a8adaf85ac96d715') in 0.050236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007300 seconds.
+  path: Assets/TowerPack/Models/Tower9/Tower9.prefab
+  artifactKey: Guid(a1b7c704d0056bd4c8ee2b4598ff496e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Tower9.prefab using Guid(a1b7c704d0056bd4c8ee2b4598ff496e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69d0898a017516c2dbfef91d16d37bb6') in 0.017423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map14.bmp
+  artifactKey: Guid(400037a0b7f503d489710286ed3c6ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map14.bmp using Guid(400037a0b7f503d489710286ed3c6ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5840d64c93e86e761786d9825c2e88e') in 0.042994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TowerPack/Models/Tower5/Materials/map6.mat
+  artifactKey: Guid(98c852476cc3db2439245508af0e11af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Materials/map6.mat using Guid(98c852476cc3db2439245508af0e11af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0595c10199fea92479bfae31e99eaff5') in 0.017679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials
+  artifactKey: Guid(cc0802487b03f4e4e8ca45c47df5aff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials using Guid(cc0802487b03f4e4e8ca45c47df5aff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2d79cd20e9980f377eb919e4577ebcf') in 0.010460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/coral.bmp
+  artifactKey: Guid(c408733c7172afb4da84ec1139375d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/coral.bmp using Guid(c408733c7172afb4da84ec1139375d89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a1f752a7e275ce2c2435ed62b469c6e') in 0.052302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map6.mat
+  artifactKey: Guid(32b3eb667b0713141abe9685514501b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map6.mat using Guid(32b3eb667b0713141abe9685514501b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e556d821151a953e99e4eabe42bc85f') in 0.021723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TowerPack/Other/Ground.jpg
+  artifactKey: Guid(76a0de396dc326945b786a61ed237907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Other/Ground.jpg using Guid(76a0de396dc326945b786a61ed237907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bd4b8098c8e42d35acd17f513c2d88a') in 0.052100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map10.mat
+  artifactKey: Guid(ffd4809ac3515c54e8e343aeb78a48be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map10.mat using Guid(ffd4809ac3515c54e8e343aeb78a48be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f371ba9960145683147062f7fbe6f5ba') in 0.021940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower2
+  artifactKey: Guid(b6488cbd343696a4f8458d4f175712b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2 using Guid(b6488cbd343696a4f8458d4f175712b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '267db451b79495ad5cd266edd6b0c347') in 0.017103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map9.mat
+  artifactKey: Guid(4de59d8a8519c3c48a7403c9706c4267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map9.mat using Guid(4de59d8a8519c3c48a7403c9706c4267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '954ebab9ee2286a910c8e01a5c97d5da') in 0.014599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower9/Textures
+  artifactKey: Guid(a60209dde4889494ea8e476b5d14d203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Textures using Guid(a60209dde4889494ea8e476b5d14d203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e93f6d14c73825e9ad7a5451e3ca2275') in 0.016370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Perfabs/Tower8.prefab
+  artifactKey: Guid(2fb067862b7d7a047a26854dabac3b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Perfabs/Tower8.prefab using Guid(2fb067862b7d7a047a26854dabac3b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df09e99a2c3fac341af0ea4ca7db10dd') in 0.021423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/TowerPack/Models/Tower6/Textures/map6.bmp
+  artifactKey: Guid(56fcb0794ec7ace4a987c3696dd717e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Textures/map6.bmp using Guid(56fcb0794ec7ace4a987c3696dd717e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bb320a0767f223723446483f3882ef3') in 0.073774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016784 seconds.
+  path: Assets/TowerPack/Models/Tower7/Textures
+  artifactKey: Guid(d3920dfa45b26d44e870e2012411c406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Textures using Guid(d3920dfa45b26d44e870e2012411c406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c816ccc43162e18aa0053cebd1cf611c') in 0.033024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower5/Materials/map7.mat
+  artifactKey: Guid(7051318aeedc10647ba081a7c54db4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Materials/map7.mat using Guid(7051318aeedc10647ba081a7c54db4da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '491ceaa4767b261e4a452d788f845b58') in 0.044422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials/map9.mat
+  artifactKey: Guid(5b2b312ef6f17de4a9a8076465f8527e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials/map9.mat using Guid(5b2b312ef6f17de4a9a8076465f8527e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5326d5348c78c690417c4b9705485e5') in 0.040023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower5/Tower5.prefab
+  artifactKey: Guid(144ae6cd611508146b3056838fc805ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Tower5.prefab using Guid(144ae6cd611508146b3056838fc805ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b34c9b7532dfd9ddb8f9e1b8cfc96d67') in 0.017854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map6.mat
+  artifactKey: Guid(c4326b477e79b8e499e92de57c963de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map6.mat using Guid(c4326b477e79b8e499e92de57c963de8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05409cc7f2c720224fbf17a6e8a0d387') in 0.026542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map7.bmp
+  artifactKey: Guid(b6ec8797eb3a67e47843dda6b3638dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map7.bmp using Guid(b6ec8797eb3a67e47843dda6b3638dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '914ca380bace330214aaf7312b674e3d') in 0.039948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000995 seconds.
+  path: Assets/TowerPack/Models/Tower2/Tower2.FBX
+  artifactKey: Guid(a63caba5ee76ccf49af118a042ffe85d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2/Tower2.FBX using Guid(a63caba5ee76ccf49af118a042ffe85d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80dd890b2daf35391dc7ac0856591dd3') in 0.070472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map14.mat
+  artifactKey: Guid(d171ef9bb59c7d74986d60b7142c7df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map14.mat using Guid(d171ef9bb59c7d74986d60b7142c7df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f001f96fb254d3d958a5a44c1d39fb2') in 0.035648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map12.bmp
+  artifactKey: Guid(3c6c7bb99d7e54a4d84a72c6eecdc3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map12.bmp using Guid(3c6c7bb99d7e54a4d84a72c6eecdc3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe60f7e03cd6828c8850eebb65c3db55') in 0.026921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TowerPack/Models/Tower9
+  artifactKey: Guid(b2fdb3b4cb8de4a4abd54d754b7f8874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9 using Guid(b2fdb3b4cb8de4a4abd54d754b7f8874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f8d596fb729445ad201bde963f5ed12') in 0.021272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower2/Textures/coral.bmp
+  artifactKey: Guid(e06c4bcd49b2750469526bfd01f19dde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2/Textures/coral.bmp using Guid(e06c4bcd49b2750469526bfd01f19dde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4371fce78f952e021335e4607aecdc34') in 0.045112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006895 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map3.mat
+  artifactKey: Guid(165158831b5b45446a935befff869ec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map3.mat using Guid(165158831b5b45446a935befff869ec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b8eb9c791ba9d73f74e551fa6f51c68') in 0.028259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003362 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map9.mat
+  artifactKey: Guid(f1d3c3c8e1372014197346f5b1b80d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map9.mat using Guid(f1d3c3c8e1372014197346f5b1b80d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce69a956030b0e2978f046e6c8ec5241') in 0.025238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TowerPack/Models/Tower7/Textures/map5.bmp
+  artifactKey: Guid(4aad035cf39cba846bf745bdd1e90161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Textures/map5.bmp using Guid(4aad035cf39cba846bf745bdd1e90161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5da49fc7c2a1c17e8f2100c1d65f7ee8') in 0.037994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map6.mat
+  artifactKey: Guid(f8a5de1c66e3c8f47a279cccdcf7924b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map6.mat using Guid(f8a5de1c66e3c8f47a279cccdcf7924b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b26d68eb28e1d9557cc6d0de95c27ef6') in 0.020050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map8.mat
+  artifactKey: Guid(77cb19b3d305f5a42887de0b5b356729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map8.mat using Guid(77cb19b3d305f5a42887de0b5b356729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1eb43a5ec86ff26038422c3168a10d3d') in 0.016181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower6/Materials/map11.mat
+  artifactKey: Guid(1cd4ddd61124ef2499a4e9749a008683) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Materials/map11.mat using Guid(1cd4ddd61124ef2499a4e9749a008683) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c18f62f9b6d66cc3c39d13e1a5f2e05') in 0.019144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower6/Textures/map7.bmp
+  artifactKey: Guid(cf265c0c1002a7947bfcf89026983f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Textures/map7.bmp using Guid(cf265c0c1002a7947bfcf89026983f09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2307d2d3e7ef1491a611b23b2dd5dea') in 0.036996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower6/Materials/map10.mat
+  artifactKey: Guid(471dcbc3394619a43a046017d34862f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Materials/map10.mat using Guid(471dcbc3394619a43a046017d34862f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39fe6a00ab2a126c98f47867eb0efd64') in 0.020557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map9.mat
+  artifactKey: Guid(892b72d3bccc64c469270339a084a607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map9.mat using Guid(892b72d3bccc64c469270339a084a607) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9703f59e2a4695c767a70812eed1101e') in 0.019659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map1.mat
+  artifactKey: Guid(c3baf726114eaa44dbc5d465fe4405e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map1.mat using Guid(c3baf726114eaa44dbc5d465fe4405e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5eb174267767c4525827418ee1e1b926') in 0.024446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TowerPack/Models/Tower5/Materials/map11.mat
+  artifactKey: Guid(451ac32ff7f79d74aa6ddd3ab4127a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Materials/map11.mat using Guid(451ac32ff7f79d74aa6ddd3ab4127a09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a970c59df07db3fb9072dc5026f2b07d') in 0.025971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower5/Textures/map6.bmp
+  artifactKey: Guid(a63d9bdf8feca864bb9cfd52acc58261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Textures/map6.bmp using Guid(a63d9bdf8feca864bb9cfd52acc58261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa3c2c3f7b4d47b585416377bd6ecf77') in 0.046423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials/map7.mat
+  artifactKey: Guid(0aab6522e14d37a468e3afbed65d671c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials/map7.mat using Guid(0aab6522e14d37a468e3afbed65d671c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8890f705706fea13541cba2fad97b86') in 0.025412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map15.mat
+  artifactKey: Guid(7307604d5987fa145913afbef898eb72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map15.mat using Guid(7307604d5987fa145913afbef898eb72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c53b2445ddfe0fa53dff12e80499b4e') in 0.024973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Mobile/Car_2.prefab
+  artifactKey: Guid(388d83314c9e51c40956fb6908979eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Mobile/Car_2.prefab using Guid(388d83314c9e51c40956fb6908979eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a26b3f0bcf200e5a49d66c1377b4fca') in 0.034877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map7.mat
+  artifactKey: Guid(fb84e7f5fc488434cbbc44f87665680c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map7.mat using Guid(fb84e7f5fc488434cbbc44f87665680c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62e7f8b7c302b848983dc027278d277f') in 0.018010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TowerPack/Models/Tower3/Textures/map1.bmp
+  artifactKey: Guid(a9dd1ab0af5244840b16b5f9dd801e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Textures/map1.bmp using Guid(a9dd1ab0af5244840b16b5f9dd801e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81104e653258bc8972d16e884e8c4123') in 0.031356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials/map4.mat
+  artifactKey: Guid(63edb0488f114604cae9d26b084a027e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials/map4.mat using Guid(63edb0488f114604cae9d26b084a027e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5082c2d30150737d1724042d22be4098') in 0.081956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TowerPack/Models/Tower7/Textures/map11.bmp
+  artifactKey: Guid(177fdeb799ff3da47979912a45c335c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Textures/map11.bmp using Guid(177fdeb799ff3da47979912a45c335c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7de60afd8fafa7edcea852c9f9c95d9d') in 0.048381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Perfabs/Tower4.prefab
+  artifactKey: Guid(a481fca80e54cde438e76f487a8927d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Perfabs/Tower4.prefab using Guid(a481fca80e54cde438e76f487a8927d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17f24334c9ed33749e5c90e03050632a') in 0.015338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map11.bmp
+  artifactKey: Guid(1338608c8e8d45441b3360dc0a9c36a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map11.bmp using Guid(1338608c8e8d45441b3360dc0a9c36a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bd2be3ebc601c4d03d163858814d3f1') in 0.039253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map10.bmp
+  artifactKey: Guid(f8cddd0fc5c36064baabaacf1dd74770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map10.bmp using Guid(f8cddd0fc5c36064baabaacf1dd74770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82fef456bddf4da980deeb3ea2341df9') in 0.026997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TowerPack/Models/Tower10/Textures
+  artifactKey: Guid(5e801fd9035882d448d850a0ca1cb570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Textures using Guid(5e801fd9035882d448d850a0ca1cb570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ab12b95d81e17cc881d4d0745269a2d') in 0.019193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TowerPack/Models/Tower5/Textures/map8.bmp
+  artifactKey: Guid(09fe5d91298c0574ebc92ec40ca14e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Textures/map8.bmp using Guid(09fe5d91298c0574ebc92ec40ca14e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83168095241f31683f7227620c2cdaad') in 0.032736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower2/Textures
+  artifactKey: Guid(f703c538761470b4fbfdf6b4acb90ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower2/Textures using Guid(f703c538761470b4fbfdf6b4acb90ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5fc14a8cacaab9d8c86f752ac94b0fa') in 0.027472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Single_detailed_truck/Textures/truck_color_02.bmp
+  artifactKey: Guid(52bee4f9eba7299419a3168bf1bdec31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/Textures/truck_color_02.bmp using Guid(52bee4f9eba7299419a3168bf1bdec31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a045f51c04ba60e94c006ed4b106ca2') in 0.045303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ParticleLight/Texture/RampBlackFade_PSD.psd
+  artifactKey: Guid(05ed36d38726f1544b6a271416b37315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/RampBlackFade_PSD.psd using Guid(05ed36d38726f1544b6a271416b37315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d8bdb3e3c4ab8e8c65de624f48dc6e6') in 0.057153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ParticleLight/Texture/Blur2_PNG.png
+  artifactKey: Guid(c41620a1eef17af4594e38b8b4424cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/Blur2_PNG.png using Guid(c41620a1eef17af4594e38b8b4424cf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c38fca4aecc6f0d7d7a7d8b6dd6e5c5') in 0.058087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/ParticleLight/Read Me
+  artifactKey: Guid(257f24fec852eef4f81ad81755974387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Read Me using Guid(257f24fec852eef4f81ad81755974387) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36a437c32bca143a31eee247db0be898') in 0.021163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ParticleLight/Model
+  artifactKey: Guid(28bab7b789ff53643883c509daebabe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Model using Guid(28bab7b789ff53643883c509daebabe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53bb9b3784e8de4e902a50a3637c3604') in 0.022774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ParticleLight/Texture/Blur1_PSD.psd
+  artifactKey: Guid(baa8f45b15940ae4aa17522af01bd8a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/Blur1_PSD.psd using Guid(baa8f45b15940ae4aa17522af01bd8a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbf15acde6982b89f8cdb83a7b80231f') in 0.031861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ParticleLight/Texture/SpotFadeWhite_PSD.psd
+  artifactKey: Guid(a97b98ea677a1f34ca3380b8277a23ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/SpotFadeWhite_PSD.psd using Guid(a97b98ea677a1f34ca3380b8277a23ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '417e303b8dfc4ca2cf61c81ff7c73b43') in 0.035061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map11.bmp
+  artifactKey: Guid(e0836f3158114da429dd9b95192381b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map11.bmp using Guid(e0836f3158114da429dd9b95192381b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60df2b392b2f876e33b64a96a59e086a') in 0.044466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower7/Materials/map5.mat
+  artifactKey: Guid(00b636c08f6e899458d184b33efb67a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Materials/map5.mat using Guid(00b636c08f6e899458d184b33efb67a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '600b364b60307322896d9d779c867b18') in 0.035316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu.mat
+  artifactKey: Guid(0fc1b1b9b2d808048986fee4baf8df00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/Materials/trailer-alu.mat using Guid(0fc1b1b9b2d808048986fee4baf8df00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cb4e5a308ca670996fa81404420e9f5') in 0.025946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ParticleLight/Texture
+  artifactKey: Guid(1433ffdf712394b4982e03edec6e6a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture using Guid(1433ffdf712394b4982e03edec6e6a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13555742d712a9d45f5196d5cf448bbe') in 0.031825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Statue Bear Rough Bronze/Prefabs/StatueBear.prefab
+  artifactKey: Guid(170fcf4e078c4fb4eb18e6664e4d909b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Statue Bear Rough Bronze/Prefabs/StatueBear.prefab using Guid(170fcf4e078c4fb4eb18e6664e4d909b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e664e1d4c1bc3db5a6d928ced6bf78c0') in 0.021941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ParticleLight/Texture/RampWhiteFadeWidth_PNG.png
+  artifactKey: Guid(2c2b678acb7df6e459d52992e0a49d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/RampWhiteFadeWidth_PNG.png using Guid(2c2b678acb7df6e459d52992e0a49d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7064b39a4942113441436a8c3555546') in 0.078545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ParticleLight/Model/Materials/No Name.mat
+  artifactKey: Guid(c95c063f8a219174180fb440cf4aafed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Model/Materials/No Name.mat using Guid(c95c063f8a219174180fb440cf4aafed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad6eabee167999ca9fe042626fc6153e') in 0.032233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ParticleLight/Shader
+  artifactKey: Guid(4d95f24daeb20944e98e70c5b67d0df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Shader using Guid(4d95f24daeb20944e98e70c5b67d0df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b98c7bf580d49d619341514b048d2ff4') in 0.021829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ParticleLight/Scripts/UVScroller_C.cs
+  artifactKey: Guid(07c97941585d6f14d8ebe7af20590e14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Scripts/UVScroller_C.cs using Guid(07c97941585d6f14d8ebe7af20590e14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf0c46b917dbaddc6b035832e5dc6ca1') in 0.047853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ParticleLight/Texture/Blur1_PNG.png
+  artifactKey: Guid(c8bee52e0dd3ef34f8f3f3d8f1d7c93a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/Blur1_PNG.png using Guid(c8bee52e0dd3ef34f8f3f3d8f1d7c93a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48a6c04bbcdd0f336f34ed4776aa3c2d') in 0.056231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/ParticleLight/Texture/RampWhiteFade_PNG.png
+  artifactKey: Guid(bb2fee93bb307494da0e475a85dc7fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/RampWhiteFade_PNG.png using Guid(bb2fee93bb307494da0e475a85dc7fc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdf7026bba96fb3e71c9be3fcac97989') in 0.078578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001584 seconds.
+  path: Assets/ParticleLight/Texture/RampWhiteFade_PSD.psd
+  artifactKey: Guid(defa5ad709775b64285f14a542b75920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/RampWhiteFade_PSD.psd using Guid(defa5ad709775b64285f14a542b75920) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f99b1051fa9f7327e4e14cce684007d5') in 0.081243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Rock 4.prefab
+  artifactKey: Guid(81a7d23c8cb63c94cbb1842341b86493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Rock 4.prefab using Guid(81a7d23c8cb63c94cbb1842341b86493) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05ce795a1334a6696cf1ae03dcb87ef9') in 0.064544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ParticleLight/Materials/Jet 1.mat
+  artifactKey: Guid(1e159155e00bad749aac188eb50df5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Materials/Jet 1.mat using Guid(1e159155e00bad749aac188eb50df5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0f0591778dde09b35beefb6344809fa') in 0.027381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ParticleLight/Materials/Glow.mat
+  artifactKey: Guid(bcbd6ecb98d148b4aaa11ed58a4e236f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Materials/Glow.mat using Guid(bcbd6ecb98d148b4aaa11ed58a4e236f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0c7a6ee7990e6a08a72ba658089b1a7') in 0.036359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs
+  artifactKey: Guid(35c785aa0d49da24592a01e35692857c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs using Guid(35c785aa0d49da24592a01e35692857c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09ffbec29e35ccd93de9b905d098493f') in 0.017387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ParticleLight/Texture/RampWhiteFadeH_PSD.psd
+  artifactKey: Guid(1b908c043a674a24f996a83f8597d87a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/RampWhiteFadeH_PSD.psd using Guid(1b908c043a674a24f996a83f8597d87a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b8fe2f164eb7a6199d274ff3166a31f') in 0.046373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DamageCircle.cs
+  artifactKey: Guid(bc3e3f8acd2a2b74babdad4f020eb9d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/DamageCircle.cs using Guid(bc3e3f8acd2a2b74babdad4f020eb9d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3312bdc62a17b516a2b5c5bc1135e94b') in 0.027824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Tree 5.prefab
+  artifactKey: Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Tree 5.prefab using Guid(5bec60f4b2bc22b4fa1dcca2ca18225f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d35b43c4add68b89e63277607d86967') in 0.033151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ParticleLight/Texture/RampWhiteFlame_PSD.psd
+  artifactKey: Guid(c2a9ef63c14f0484fb69a1cfef470eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/Texture/RampWhiteFlame_PSD.psd using Guid(c2a9ef63c14f0484fb69a1cfef470eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcd7f616181b39e0bba8c35fad1bc81f') in 0.031193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Trees.fbx
+  artifactKey: Guid(35d16cd66330b3d478844c42dfc1912a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Trees.fbx using Guid(35d16cd66330b3d478844c42dfc1912a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42bdc93d34b2046e9cbfb2887a9bc757') in 0.058109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map2.bmp
+  artifactKey: Guid(f7cd2f4a7033083468788505879cfac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map2.bmp using Guid(f7cd2f4a7033083468788505879cfac0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '164e234eb3f4c5b453ca9ffdf8fe5c4d') in 0.056004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Stumps.fbx
+  artifactKey: Guid(480d29c512ed7c94c84fd730bfb23246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Stumps.fbx using Guid(480d29c512ed7c94c84fd730bfb23246) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b8859aa668613ec621f11051d903dff') in 0.055756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks
+  artifactKey: Guid(4cff48d2d3e574444b197b125be6de4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks using Guid(4cff48d2d3e574444b197b125be6de4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87bc47d2d3e587d81e1d4b80d5aa883f') in 0.019432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001291 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Plant 3.prefab
+  artifactKey: Guid(64ca9e302d16490429d2a0f349d72095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Plant 3.prefab using Guid(64ca9e302d16490429d2a0f349d72095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '410b234772cda426da95dd8a4be43c45') in 0.095964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009980 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Grass Patches.fbx
+  artifactKey: Guid(5f5482c224678d9429071f111f544d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Grass Patches.fbx using Guid(5f5482c224678d9429071f111f544d8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '875c0ae45ea9df64d8b362fd30db5599') in 0.061938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Flower 3.prefab
+  artifactKey: Guid(f550c80a288252347bddcb7465dc52df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Flower 3.prefab using Guid(f550c80a288252347bddcb7465dc52df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '280d74539d531e73aeacbb192b949221') in 0.024439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MAP ASSETS
+  artifactKey: Guid(3031176e0a152654a9460e3c3cd82c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS using Guid(3031176e0a152654a9460e3c3cd82c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec615a4778f706335200d3391f35867c') in 0.018417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Small Rock 5.prefab
+  artifactKey: Guid(e282280263592284b8c7c955e3517805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Small Rock 5.prefab using Guid(e282280263592284b8c7c955e3517805) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1624bb1250a199c3c0e6d96bb9573ea5') in 0.041448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Big Rock 3.prefab
+  artifactKey: Guid(232241c4030929146b8c0b57349f65a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Big Rock 3.prefab using Guid(232241c4030929146b8c0b57349f65a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc4511827f537a948a9da493b1bba60c') in 0.048531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Rocks.fbx
+  artifactKey: Guid(b028c90d3d17c7849a589391cd891c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Rocks.fbx using Guid(b028c90d3d17c7849a589391cd891c6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f667059a46f1fe793cc09b7aa95df8b') in 0.080180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Grass Patch 2.prefab
+  artifactKey: Guid(34153477ce4cf9246b4e6cda32b7153b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Grass Patch 2.prefab using Guid(34153477ce4cf9246b4e6cda32b7153b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da233f0792e89064764aa127a154da04') in 0.050478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MAP ASSETS/Terrians.prefab
+  artifactKey: Guid(34d2207302e1e154d9fa7d73e7df6f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Terrians.prefab using Guid(34d2207302e1e154d9fa7d73e7df6f8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f87aec00f4f5fc9316135da110b8469f') in 0.152690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation
+  artifactKey: Guid(80edbe4411c5dae4d954c602673ebefc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation using Guid(80edbe4411c5dae4d954c602673ebefc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7191f1c9b756a616dcd09a4131b3b051') in 0.036818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Big Rock 5.prefab
+  artifactKey: Guid(4462df8489303ba448bfd5971b82232f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Big Rock 5.prefab using Guid(4462df8489303ba448bfd5971b82232f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc56bdaf73921258573e0ad93ddf7dc3') in 0.049849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Small Rock 1.prefab
+  artifactKey: Guid(5affa63adb5a6e44ea78a6528f5b7331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Rocks/Small Rock 1.prefab using Guid(5affa63adb5a6e44ea78a6528f5b7331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6c05eca03ad38b0c5183b4acfc98796') in 0.031032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BBANG_ASSET/hamburger.prefab
+  artifactKey: Guid(6970c31a8d5903b41a1421ce4c25af58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BBANG_ASSET/hamburger.prefab using Guid(6970c31a8d5903b41a1421ce4c25af58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d86abe83bcf257cd2fc758c4e57aa18') in 0.046284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BBANG_ASSET/STATUE.prefab
+  artifactKey: Guid(0ecc7c4786732d34fa4a4eb7dc882d26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BBANG_ASSET/STATUE.prefab using Guid(0ecc7c4786732d34fa4a4eb7dc882d26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86d47de1db73c164721aaee64794fddb') in 0.051886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Branches.fbx
+  artifactKey: Guid(95cc45b7a6c86ed4daa4a2e32f6a0e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Branches.fbx using Guid(95cc45b7a6c86ed4daa4a2e32f6a0e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1b25d48eba787d5d1ca0531e58b6485') in 0.075539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003496 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Grass Patch 1.prefab
+  artifactKey: Guid(d483cda7cf88d5c43a719c90483764f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Prefabs/Vegetation/Grass Patch 1.prefab using Guid(d483cda7cf88d5c43a719c90483764f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c34639bc0e3ce50f366a9da537c6ca1') in 0.029795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BBANG_ASSET/streetobject.prefab
+  artifactKey: Guid(cba46a9de04f00643837ae0a7b8462ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/BBANG_ASSET/streetobject.prefab using Guid(cba46a9de04f00643837ae0a7b8462ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a6b8363e045475938a278312e333fa0') in 0.392202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TowerPack/Models/Tower7/Materials/map6.mat
+  artifactKey: Guid(75e363243b24d364199984c70655cd0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Materials/map6.mat using Guid(75e363243b24d364199984c70655cd0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c53c94fab622f7cd22c6b97fcca2e216') in 0.024920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ParticleLight/SceneSettings.lighting
+  artifactKey: Guid(ccadd515ae5967e469d834a03ad0221e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ParticleLight/SceneSettings.lighting using Guid(ccadd515ae5967e469d834a03ad0221e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2958b9c8ccd52331853f8c8a4ca8913') in 0.063773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures/map12.bmp
+  artifactKey: Guid(8a0cf5fc60873a148b524b463adf1344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures/map12.bmp using Guid(8a0cf5fc60873a148b524b463adf1344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5691373f39cfbc2a3dc1393272f7847b') in 0.040705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000879 seconds.
+  path: Assets/Simple Vehicle Pack/Materials/Mobile/Bus_2.mat
+  artifactKey: Guid(01f8a6cb462b8174a8875f1e4a205d88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Materials/Mobile/Bus_2.mat using Guid(01f8a6cb462b8174a8875f1e4a205d88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b410d1e16f971db86da1791bd378ae9d') in 0.025156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map1.bmp
+  artifactKey: Guid(109023401aff06a4a93a2fea1827ac85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map1.bmp using Guid(109023401aff06a4a93a2fea1827ac85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '692a22de21fe6599c5f594e996921619') in 0.022907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TowerPack/SimpleSettings.lighting
+  artifactKey: Guid(a4b15b25cff80b640b23075e4f9f250e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/SimpleSettings.lighting using Guid(a4b15b25cff80b640b23075e4f9f250e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd04bf2a0d974759106ee3f43661a3513') in 0.044712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Bus_2.prefab
+  artifactKey: Guid(34941e62fdb557544ada8af1b5333ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Bus_2.prefab using Guid(34941e62fdb557544ada8af1b5333ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7cfd4cdf170b06b652be196a47e6c4a') in 0.015108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map13.mat
+  artifactKey: Guid(b2c3ec2cec2ed8442821c21963e39b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map13.mat using Guid(b2c3ec2cec2ed8442821c21963e39b40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f7143cf7d51fa4f49ee4cb5c25294d1') in 0.036949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower7/Materials/map3.mat
+  artifactKey: Guid(a016801bc2e256e409ad78eb8bbf9229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Materials/map3.mat using Guid(a016801bc2e256e409ad78eb8bbf9229) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cc9b74843a1eb76b6b9eba2c92b90c6') in 0.032155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011201 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Mobile/Car_3.prefab
+  artifactKey: Guid(6d56b50e711a5204d9059e0c99b70eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Mobile/Car_3.prefab using Guid(6d56b50e711a5204d9059e0c99b70eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0a8fdc8b18b5767d5117a1e9a291a7f') in 0.056031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TowerPack/Models/Tower5/Textures/map3.bmp
+  artifactKey: Guid(9fc1848163efaa5408360eefb2a4d0f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower5/Textures/map3.bmp using Guid(9fc1848163efaa5408360eefb2a4d0f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab67e6a6e4005531cf7a51f856d253e9') in 0.025544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TowerPack/Models/Tower1/Materials/map12.mat
+  artifactKey: Guid(4aa48e5d76cb2a64f80ddaaef5a7644a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Materials/map12.mat using Guid(4aa48e5d76cb2a64f80ddaaef5a7644a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d26b8400b48c1e852d9d9faab069bf0') in 0.030171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TowerPack/Models/Tower6/Textures/map2.bmp
+  artifactKey: Guid(2eabff7a5bb8e35499df204ef8b8ecfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Textures/map2.bmp using Guid(2eabff7a5bb8e35499df204ef8b8ecfa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2169b520b6d65e03db7b7300770667f4') in 0.072150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower8/Textures
+  artifactKey: Guid(15ee80912c1456f498b11e63771d468a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Textures using Guid(15ee80912c1456f498b11e63771d468a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54f593eb7a9f0eb4de58ba9b047deaa1') in 0.021687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower9/Materials/map11.mat
+  artifactKey: Guid(326a759e2fa23a743919effec555560f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower9/Materials/map11.mat using Guid(326a759e2fa23a743919effec555560f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f783175940426bf7631db143fb0f178e') in 0.030824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Standard Assets/Effects/LightFlares
+  artifactKey: Guid(3394b0e0eedbf3942888bb0850602e5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Standard Assets/Effects/LightFlares using Guid(3394b0e0eedbf3942888bb0850602e5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51740fdb7952cef2b560245607f51e93') in 0.016035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Mushrooms.fbx
+  artifactKey: Guid(c43f8078a174987439a67ccaab3be883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Mushrooms.fbx using Guid(c43f8078a174987439a67ccaab3be883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23ddc3644f9d677416a0c30008f5f71e') in 0.097679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower8/Materials/map12.mat
+  artifactKey: Guid(c8021881e5d7f3643b74d422115fe7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower8/Materials/map12.mat using Guid(c8021881e5d7f3643b74d422115fe7cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcff99aeab25e85bd950bf1aefafcda1') in 0.050996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TowerPack/Models/Tower3/Materials/map5.mat
+  artifactKey: Guid(ccde3f7f4b3bfb745977b106e7dbf2db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower3/Materials/map5.mat using Guid(ccde3f7f4b3bfb745977b106e7dbf2db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33a66378e401a801ec17071c526041c5') in 0.031030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map2.mat
+  artifactKey: Guid(9e21a0416fd0c10438386c2df93a953f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map2.mat using Guid(9e21a0416fd0c10438386c2df93a953f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a1064d3a54f520c44a36c2f51cad1f8') in 0.019595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Simple Vehicle Pack/Materials/Bus_1.mat
+  artifactKey: Guid(39cfffc7cdb08644ca972fb9d7f6b125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Materials/Bus_1.mat using Guid(39cfffc7cdb08644ca972fb9d7f6b125) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad39767af3bf21a48cb698455a930974') in 0.050369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TowerPack/Models/Tower4/Textures/map10.bmp
+  artifactKey: Guid(71dbd1e9064b8304fb7095ac86aee3c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Textures/map10.bmp using Guid(71dbd1e9064b8304fb7095ac86aee3c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b004b9e329dc6a99ad5629053b8514ca') in 0.071058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures
+  artifactKey: Guid(7238f9202504d6647841df36c1553671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures using Guid(7238f9202504d6647841df36c1553671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea9f7cc926c99ccd82c714ca8a15088f') in 0.030012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TowerPack/Models/Tower10/Textures/map2.bmp
+  artifactKey: Guid(cf0d562e4011f434d9691369e01bd0c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Textures/map2.bmp using Guid(cf0d562e4011f434d9691369e01bd0c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c075bee101761149268720b748073c1e') in 0.041917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Mountain.fbx
+  artifactKey: Guid(07f7693a22c302246b83507415e1c01f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MAP ASSETS/Low Poly Free Vegetation Kit/Meshes/Mountain.fbx using Guid(07f7693a22c302246b83507415e1c01f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26891ae004b47772553afc77eb764b34') in 0.064850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TowerPack/Models/Tower7/Materials
+  artifactKey: Guid(5d45f103f29975044b26e319d3ac4f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower7/Materials using Guid(5d45f103f29975044b26e319d3ac4f5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfcb106b6c7d2c19c11b1dee7646c095') in 0.013172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TowerPack/Models/Tower1/Textures/map7.bmp
+  artifactKey: Guid(c88fe8b514e7af54daffdd233e76029e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower1/Textures/map7.bmp using Guid(c88fe8b514e7af54daffdd233e76029e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65ee74e0333e00e7b685fae24c3b1373') in 0.072744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Simple Vehicle Pack/Prefabs/Mobile/Car_4.prefab
+  artifactKey: Guid(558e73634b44f39458a7ea4a8a56976a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Simple Vehicle Pack/Prefabs/Mobile/Car_4.prefab using Guid(558e73634b44f39458a7ea4a8a56976a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf48db3708b119d78c83c62a40e50be2') in 0.036520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/TowerPack/Models/Tower10/Materials/map8.mat
+  artifactKey: Guid(1ef21eed92c7ce2448f72c3af9c0a9ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower10/Materials/map8.mat using Guid(1ef21eed92c7ce2448f72c3af9c0a9ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f0857c7abf7fdf417b4ecdaa1f7ade3') in 0.019748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TowerPack/Models/Tower6/Textures/map1.bmp
+  artifactKey: Guid(5e1f0ffc26aa5d142a4d25d46661bf6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower6/Textures/map1.bmp using Guid(5e1f0ffc26aa5d142a4d25d46661bf6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88a64376396586e9cbbcc679e6266877') in 0.038887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TowerPack/Models/Tower4/Materials/map5.mat
+  artifactKey: Guid(74b0da5da33beed428110b0787f9f773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TowerPack/Models/Tower4/Materials/map5.mat using Guid(74b0da5da33beed428110b0787f9f773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ead2e9dbce56738f3c6db3cc58ff3ee5') in 0.018011 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

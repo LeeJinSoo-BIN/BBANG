@@ -1,0 +1,533 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'ko' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\msyang\Desktop\BBANGMAP\BBANG\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+59101
+Successfully changed project path to: C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 211.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/git/BBANG/BBANG_unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   30.0.100.9805
+Initialize mono
+Mono path[0] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030228 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 442.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2519ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1908ms)
+			LoadAssemblies (278ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (1192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (443ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (393ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1898ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1496ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (806ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (42ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.9 KB). Loaded Objects now: 3875.
+Memory consumption went from 140.3 MB to 140.2 MB.
+Total: 3.423200 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.835000 ms  DeleteObjects: 0.164000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 613019.857752 seconds.
+  path: Assets/map_package/download_asset/FurnishedCabin/Meshes/Collision/Stove_COL.fbx
+  artifactKey: Guid(4f415ecbe66194046bbee713e3cf231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/FurnishedCabin/Meshes/Collision/Stove_COL.fbx using Guid(4f415ecbe66194046bbee713e3cf231c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c1afed1592111151ead2434c223c71') in 5.481254 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009773 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (689ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3888.
+Memory consumption went from 144.5 MB to 144.5 MB.
+Total: 64.386300 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.217700 ms MarkObjects: 63.812200 ms  DeleteObjects: 0.035700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135.654171 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Clock.fbx
+  artifactKey: Guid(8e0070b5b411d204a804fff8e62d694e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Clock.fbx using Guid(8e0070b5b411d204a804fff8e62d694e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad9621446bcc3f66c5cc1812b05c336') in 2.095295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Storage sign.fbx
+  artifactKey: Guid(2f8402e757012b94c96db0ec94b269a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Storage sign.fbx using Guid(2f8402e757012b94c96db0ec94b269a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580fc54c73169665f32f4c0c2609b1eb') in 0.146941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/paper box.fbx
+  artifactKey: Guid(2c88d05a95d2ffa4f97bd18ff5099ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/paper box.fbx using Guid(2c88d05a95d2ffa4f97bd18ff5099ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20de642ebc65fe4bfc18be5391e9a9c') in 0.209358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Noteblock.fbx
+  artifactKey: Guid(2ca852ab7cfc026498325cc246a83f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Noteblock.fbx using Guid(2ca852ab7cfc026498325cc246a83f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6d2fa083f414ab25995164b5602e9e') in 1.310125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/lobby table.fbx
+  artifactKey: Guid(c5576d09fbfa4774e937eb472ececd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/lobby table.fbx using Guid(c5576d09fbfa4774e937eb472ececd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c00d2ba800324b9d7069345b1775f9') in 0.176759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Trash bin.fbx
+  artifactKey: Guid(ac7a5a6eefc7d1949be944e712b4f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Trash bin.fbx using Guid(ac7a5a6eefc7d1949be944e712b4f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b430819f842977a0a7b3e9bb8a145c') in 0.189494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Little cactus 1.fbx
+  artifactKey: Guid(35bd198b727f97d488b29af1892c2f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Little cactus 1.fbx using Guid(35bd198b727f97d488b29af1892c2f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e274432193d10c6b24437092850c5416') in 0.423503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/plant 1.fbx
+  artifactKey: Guid(014003b3893dd5e4a98bfdcdd268764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/plant 1.fbx using Guid(014003b3893dd5e4a98bfdcdd268764d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e1476cf59fdf8fad91ee91b44228fc') in 0.539311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Little cactus 2.fbx
+  artifactKey: Guid(e9b66fa216f183b42b73fbd7bc3daa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Little cactus 2.fbx using Guid(e9b66fa216f183b42b73fbd7bc3daa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32787b0e68bca243c1d91963e79f237') in 0.148044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Cupboard.fbx
+  artifactKey: Guid(ca2f4fa1a1ebeca46ab1b9116e34ef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Cupboard.fbx using Guid(ca2f4fa1a1ebeca46ab1b9116e34ef99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbc20aa92bf21c7e1975d26aac75452') in 0.226841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Plant 2.fbx
+  artifactKey: Guid(c657c26c391a08e4ea339e8b016fa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Plant 2.fbx using Guid(c657c26c391a08e4ea339e8b016fa339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973c7e4ef510d1cf49cd24c830b6a010') in 0.373256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Table.fbx
+  artifactKey: Guid(551a322242ed2bb4ca53da420f240310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Table.fbx using Guid(551a322242ed2bb4ca53da420f240310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3958418a296af57011519ca2f33f26ea') in 0.162465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Exit sign.fbx
+  artifactKey: Guid(cb5caf2a3116edb4c845e8c28faae753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Exit sign.fbx using Guid(cb5caf2a3116edb4c845e8c28faae753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37154d8947a2ef7b654d79bd52628ac') in 0.122129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/evelator floor number.fbx
+  artifactKey: Guid(a684bd23a208a8f4a94c79a3a943395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/evelator floor number.fbx using Guid(a684bd23a208a8f4a94c79a3a943395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb35e4f64f64fa3a12c5d6d8435b278') in 0.607712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/elevator cabin.fbx
+  artifactKey: Guid(75181ddabc44e404f9a4b441e892458f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/elevator cabin.fbx using Guid(75181ddabc44e404f9a4b441e892458f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6dc85a857b691073fad9b726e7e6f3') in 0.253115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Toilet paper.fbx
+  artifactKey: Guid(39cce7b7a8625ee49ad87290a1738c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Toilet paper.fbx using Guid(39cce7b7a8625ee49ad87290a1738c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ac162e04a1f935f5df96fe881d0dd3') in 0.102931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/paper.fbx
+  artifactKey: Guid(efe3c449ba21ecc49bdce006a5e898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/paper.fbx using Guid(efe3c449ba21ecc49bdce006a5e898b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b57c33c6806bcf60a1bb0180c79e5b7') in 0.107852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Toilet sign.fbx
+  artifactKey: Guid(96a75ebfd11867e4ba6a4cb565f72404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Toilet sign.fbx using Guid(96a75ebfd11867e4ba6a4cb565f72404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ed22a1265ccdd0af05bf8218ee2d73') in 0.126494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010884 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Plant 3.fbx
+  artifactKey: Guid(69c26a941c079874988f990a50c935be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/meshes/Plant 3.fbx using Guid(69c26a941c079874988f990a50c935be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327768f944c4cd508e64a40059533eae') in 0.730215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.348197 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/concrete.mat
+  artifactKey: Guid(fdef9fc465e6bb2499064052e6209ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/concrete.mat using Guid(fdef9fc465e6bb2499064052e6209ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1654aafe25812471455e40637aadfa12') in 0.089856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Railing.mat
+  artifactKey: Guid(d27b0e425c90c864485385c53578b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Railing.mat using Guid(d27b0e425c90c864485385c53578b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37b32b4e1d73bd4af1c7fb82d7f8a70') in 0.115015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/roof 1.mat
+  artifactKey: Guid(9e4e3b426c8b05446a6bcad5ddc9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/roof 1.mat using Guid(9e4e3b426c8b05446a6bcad5ddc9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9bf702d10a32062bf9e80b20d5fc85') in 0.107199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Toilet wall.mat
+  artifactKey: Guid(5b1b7d47a42011b42a7b37725464a3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Toilet wall.mat using Guid(5b1b7d47a42011b42a7b37725464a3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf168eb4c1f8f825fe6bd50857a42472') in 0.095903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Floor 2.mat
+  artifactKey: Guid(9bef9df5cae7b6c4b872463cfa851d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Floor 2.mat using Guid(9bef9df5cae7b6c4b872463cfa851d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dfe79363a7496fb30a6ea2f1d5a833') in 0.083906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Door.mat
+  artifactKey: Guid(207f6c91796ef9e40be137c1e784328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Door.mat using Guid(207f6c91796ef9e40be137c1e784328f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f700800157f51e60c4511b522a81261') in 0.040370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Enery room door.mat
+  artifactKey: Guid(13269f783f1cb9042ac11a5cd3603e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Enery room door.mat using Guid(13269f783f1cb9042ac11a5cd3603e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4785bac798592ac62483d083a74d6bcc') in 0.099646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Glass.mat
+  artifactKey: Guid(e822722b9afb7f94cbf04f23ce16c856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Glass.mat using Guid(e822722b9afb7f94cbf04f23ce16c856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041565fad8a2913504fabedddca072a7') in 0.097312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/toilet floor.mat
+  artifactKey: Guid(2bfb7a8ce1d7a3745bd42c7dfa820106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/toilet floor.mat using Guid(2bfb7a8ce1d7a3745bd42c7dfa820106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601b9900c0b3c0d8331666027d3fe338') in 0.150854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/plank.mat
+  artifactKey: Guid(ac991f7a00441b44eacdf621a58d5470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/plank.mat using Guid(ac991f7a00441b44eacdf621a58d5470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdbbbe7a8049eef39ca2755e4efd1b5') in 0.102883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043892 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/metal.mat
+  artifactKey: Guid(d880ccb515409bf49a3530d33b979c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/metal.mat using Guid(d880ccb515409bf49a3530d33b979c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293944d3e8fcdd35e45711fedd937a75') in 0.373597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.219554 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/lobby table.mat
+  artifactKey: Guid(9ab01f780b45cd3409d5d3cad38a8766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/lobby table.mat using Guid(9ab01f780b45cd3409d5d3cad38a8766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7930a00e219f6a5d50d6be80110d352') in 0.111164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017114 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Fridge.mat
+  artifactKey: Guid(aa73e3d5f0986f84ea786e033c686da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Fridge.mat using Guid(aa73e3d5f0986f84ea786e033c686da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b93c21dd9f450a13d908b88d9edc14a') in 0.066855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Computer.mat
+  artifactKey: Guid(1382d7cb7b45e8642aa34d7fe2c655f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Computer.mat using Guid(1382d7cb7b45e8642aa34d7fe2c655f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd874d50544029eaa02a0621eaf30df0c') in 0.034112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten table.mat
+  artifactKey: Guid(1db571aadd272bd419de3dd355544173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten table.mat using Guid(1db571aadd272bd419de3dd355544173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81ddbd925337af4dbd70ffccb9371fa') in 0.073983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007860 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Computer chair.mat
+  artifactKey: Guid(c91bef0412ad22a4793733160456d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Computer chair.mat using Guid(c91bef0412ad22a4793733160456d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa9d1644cf5a62df3b6840ecc94c84b') in 1.139088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten cupboard B.mat
+  artifactKey: Guid(eff7e5d8a0423734083cc67747d6df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten cupboard B.mat using Guid(eff7e5d8a0423734083cc67747d6df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996a54c1dfbb1979d0aa22cc80f5c772') in 0.089849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten picture wall.mat
+  artifactKey: Guid(c57e00171c1feb44c876fb6b4863cb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten picture wall.mat using Guid(c57e00171c1feb44c876fb6b4863cb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3382e5b58988ce50dd72770c0849776b') in 0.107367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kitchen Sink.mat
+  artifactKey: Guid(aa4f50836f038944587bf5f2dadbaf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kitchen Sink.mat using Guid(aa4f50836f038944587bf5f2dadbaf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c7eed882c175f9977f060f1e16b7db') in 0.097263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/out facade 1.mat
+  artifactKey: Guid(83cb0e9263d88664bb572f98b0124985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/out facade 1.mat using Guid(83cb0e9263d88664bb572f98b0124985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0de584785d031569331a9a35d338a7b') in 0.076863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Ventilation.mat
+  artifactKey: Guid(c60a67fce5ec2144f823d9c5c7a9bba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Ventilation.mat using Guid(c60a67fce5ec2144f823d9c5c7a9bba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748af68e005336fb8bab518e2c94ab8') in 0.047243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Cupboard.mat
+  artifactKey: Guid(48d73beabad5c4942a89c45d73c8c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Cupboard.mat using Guid(48d73beabad5c4942a89c45d73c8c4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd392563a97483ea632125e2f626d4e01') in 0.059678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/bottle.mat
+  artifactKey: Guid(5effc01ee34487f43a31b4dbc24256fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/bottle.mat using Guid(5effc01ee34487f43a31b4dbc24256fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db67c53550feb04fd36b9eb0a75c97e') in 0.036473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Little cactus.mat
+  artifactKey: Guid(b9ee94a66ac206c439bf8c9177c6822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Little cactus.mat using Guid(b9ee94a66ac206c439bf8c9177c6822e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff9a351078666a1f230538eb8b86f2e') in 0.034723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/marmor floor.mat
+  artifactKey: Guid(e49e5f32f7bddf743b8a795c90796f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/marmor floor.mat using Guid(e49e5f32f7bddf743b8a795c90796f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b36c8283d61600ee0761451f3ec03b') in 0.264371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/reception.mat
+  artifactKey: Guid(0207463ab56a2d94ab2b6c91a5002b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/reception.mat using Guid(0207463ab56a2d94ab2b6c91a5002b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5313e542d5fb8e304c87505e581bb1f2') in 0.111238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007104 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten chair.mat
+  artifactKey: Guid(2e8b1b2da7e7ef94b924bc64e5894048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kindergarten chair.mat using Guid(2e8b1b2da7e7ef94b924bc64e5894048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d20728b5f1089f5e4e7674a54f6400') in 0.078602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001313 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Door roof.mat
+  artifactKey: Guid(23cd48cd9103e7845862900a85d775ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Door roof.mat using Guid(23cd48cd9103e7845862900a85d775ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8514082f26a0172cb75ac8284cac1f6c') in 0.129006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Keyboard.mat
+  artifactKey: Guid(6e0b8344ee6efc943a0c5d474d00d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Keyboard.mat using Guid(6e0b8344ee6efc943a0c5d474d00d2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb42d6588b1518486b03d0d2882b224') in 0.294322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kitchen oven.mat
+  artifactKey: Guid(0ab515972aefe8149a85f91033c1f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/material props/Kitchen oven.mat using Guid(0ab515972aefe8149a85f91033c1f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00c3b8aa9cdd9e32095693d779f5faa') in 0.114470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005973 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Evelator numbers.mat
+  artifactKey: Guid(51919198c43813348910f357eb609e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/materials Building/Evelator numbers.mat using Guid(51919198c43813348910f357eb609e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296f6aeb183cea9b23c12b4b435d8c54') in 0.092420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.010681 seconds.
+  path: Assets/map_package/download_asset/Enviroment/enviroment/Office building/Material lamps evelator/Lamp C.mat
+  artifactKey: Guid(64e2ee8987f77774fa23328f88ce3685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map_package/download_asset/Enviroment/enviroment/Office building/Material lamps evelator/Lamp C.mat using Guid(64e2ee8987f77774fa23328f88ce3685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa21859672b392f5e0295671a9804cb0') in 0.127350 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

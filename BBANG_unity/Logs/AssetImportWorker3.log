@@ -1,0 +1,667 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'ko' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Users\msyang\Desktop\BBANGMAP\BBANG\2021.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+59101
+Successfully changed project path to: C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+C:/Users/msyang/Desktop/git/BBANG/BBANG_unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 663.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.6f1 (7da38d85baf6)
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/msyang/Desktop/git/BBANG/BBANG_unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   30.0.100.9805
+Initialize mono
+Mono path[0] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/msyang/Desktop/BBANGMAP/BBANG/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018473 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 404.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.678 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2679ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1969ms)
+			LoadAssemblies (278ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (404ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (224ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.368 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4371ms)
+		BeginReloadAssembly (457ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (3417ms)
+			LoadAssemblies (338ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (209ms)
+			SetupLoadedEditorAssemblies (1553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (376ms)
+				ProcessInitializeOnLoadAttributes (995ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (56.0 KB). Loaded Objects now: 3874.
+Memory consumption went from 139.7 MB to 139.7 MB.
+Total: 10.323000 ms (FindLiveObjects: 0.527900 ms CreateObjectMapping: 0.260900 ms MarkObjects: 9.236400 ms  DeleteObjects: 0.295500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 611174.249785 seconds.
+  path: Assets/Single_detailed_truck/3dobjects_FBX/truck.fbx
+  artifactKey: Guid(9da17e46af819d046b9cbf7728de49a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Single_detailed_truck/3dobjects_FBX/truck.fbx using Guid(9da17e46af819d046b9cbf7728de49a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f822f6a9a58f91da8f470f8ccddb65a') in 3.523420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.307987 seconds.
+  path: Assets/New Folder/Playground Low Poly
+  artifactKey: Guid(bef3041a8fd9be84983608160dd97604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Playground Low Poly using Guid(bef3041a8fd9be84983608160dd97604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6f8f08a2f6c9a105b84fa4f56b7cf38') in 0.252599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/New Folder/Single_detailed_truck/3dobjects_FBX
+  artifactKey: Guid(9c7a9c8a03a96284f865cc6f88ea754a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Single_detailed_truck/3dobjects_FBX using Guid(9c7a9c8a03a96284f865cc6f88ea754a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0ab33fa753ccd0f4036a0dcab9901b7') in 0.445095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/New Folder/Watch_tower/Tower_B/Materials
+  artifactKey: Guid(97466cc837e463d49a33442070c31a83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Watch_tower/Tower_B/Materials using Guid(97466cc837e463d49a33442070c31a83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '651ad6791b47bc206ff5bff80ca7b726') in 0.260356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011845 seconds.
+  path: Assets/New Folder/Watch_tower/Tower_B/Tex
+  artifactKey: Guid(04d07528f06961c43aa4cf3d217c6fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Watch_tower/Tower_B/Tex using Guid(04d07528f06961c43aa4cf3d217c6fbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ce8123ce0941b9f022dee13fb4a1657') in 0.187276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013510 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower4/Materials
+  artifactKey: Guid(cc0802487b03f4e4e8ca45c47df5aff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower4/Materials using Guid(cc0802487b03f4e4e8ca45c47df5aff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb872d6cea0c9448f31d0f4827e8edaf') in 0.085241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/New Folder/SmartChannel18/Container&Boxes/Prefabs/Container.obj
+  artifactKey: Guid(c347e8c1dcfff0c4496aa599dfd5db27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/SmartChannel18/Container&Boxes/Prefabs/Container.obj using Guid(c347e8c1dcfff0c4496aa599dfd5db27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b02f7caa34b68b364dcd467dfcbdef8b') in 0.676513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013749 seconds.
+  path: Assets/New Folder/Playground Low Poly/Meshes
+  artifactKey: Guid(c4dcca44be233774c9bf4c3e0a2fed3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Playground Low Poly/Meshes using Guid(c4dcca44be233774c9bf4c3e0a2fed3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '362d8ff71c25bc3d4a838d2f1d266cd0') in 0.156784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003589 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower7
+  artifactKey: Guid(dbefe29b970021b40b0f5379046a1d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower7 using Guid(dbefe29b970021b40b0f5379046a1d65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f0f5abe168004de7cdddf4322bed835') in 0.104829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/New Folder/POLYGON city pack/scene
+  artifactKey: Guid(769e8b26e6324be4cac2744484c7001d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/scene using Guid(769e8b26e6324be4cac2744484c7001d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2390224de016747af358566382e8ef85') in 0.028208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower6/Materials
+  artifactKey: Guid(71fa6c57b18736e44b72b7848d9c7361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower6/Materials using Guid(71fa6c57b18736e44b72b7848d9c7361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '920f628cdc07154cd171398b9a2ca163') in 0.105768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/New Folder/ParticleLight/Shader
+  artifactKey: Guid(4d95f24daeb20944e98e70c5b67d0df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/ParticleLight/Shader using Guid(4d95f24daeb20944e98e70c5b67d0df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7742e3be0fcfca13cd849e52e4053740') in 0.035435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011846 seconds.
+  path: Assets/Building FastFood Drinks/SkyBox.mat
+  artifactKey: Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/SkyBox.mat using Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ba626effb95b6df4b5f2d4e14d6669') in 0.307630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/New Folder/Watch_tower/Tower_B
+  artifactKey: Guid(24cdf5226e07feb4bb49ab69c6a690bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Watch_tower/Tower_B using Guid(24cdf5226e07feb4bb49ab69c6a690bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e26c960d6032cfb038be50c80f8d3aac') in 0.101012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/New Folder/SmartChannel18/Container&Boxes/Prefabs/Wooden Box 2.obj
+  artifactKey: Guid(82a9f2efef13c844d966581831bb87f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/SmartChannel18/Container&Boxes/Prefabs/Wooden Box 2.obj using Guid(82a9f2efef13c844d966581831bb87f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52b35e0d273d14c4d95bfa98e1967c96') in 0.113892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/New Folder/Playground Low Poly/Textures
+  artifactKey: Guid(2e49781096cb4ee46a729416ba3dd371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Playground Low Poly/Textures using Guid(2e49781096cb4ee46a729416ba3dd371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08b3f7f9f8b097e3f16799c91614a2d5') in 0.043803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053875 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Materials
+  artifactKey: Guid(d0556ad3151fbf847b3dc57ba8c7772f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Materials using Guid(d0556ad3151fbf847b3dc57ba8c7772f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c57b63205cae3638a9958501a70c2fb') in 0.035223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030311 seconds.
+  path: Assets/New Folder/SmartChannel18/Container&Boxes/Prefabs
+  artifactKey: Guid(5a2189965b0b3b54896067878acde86e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/SmartChannel18/Container&Boxes/Prefabs using Guid(5a2189965b0b3b54896067878acde86e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b3fd1e9b28e43ff34a8925f33d2c6d06') in 0.044354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.238954 seconds.
+  path: Assets/New Folder/Playground Low Poly/Prefabs
+  artifactKey: Guid(ba94c09859a096d48b1eaaae0b4d00f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Playground Low Poly/Prefabs using Guid(ba94c09859a096d48b1eaaae0b4d00f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cac0b6fc88b3d0d624302792a5011e1') in 0.068417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/New Folder/Standard Assets
+  artifactKey: Guid(cfcc3dcabfddaad4390a11ddb90eb131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Standard Assets using Guid(cfcc3dcabfddaad4390a11ddb90eb131) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4a99390738dc177a9e07b4abc5de416') in 0.057501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.222168 seconds.
+  path: Assets/New Folder/Single_detailed_truck/Prefabs
+  artifactKey: Guid(09c14108cfb8deb4bb61572161bb7c9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Single_detailed_truck/Prefabs using Guid(09c14108cfb8deb4bb61572161bb7c9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46b66d6d8cb5c67dc2c517da1e63047f') in 0.072181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029519 seconds.
+  path: Assets/New Folder/Watch_tower/Tower_B/Tex/Platform.png
+  artifactKey: Guid(0eb11600dea2fad499ff6aac1cdd32b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Watch_tower/Tower_B/Tex/Platform.png using Guid(0eb11600dea2fad499ff6aac1cdd32b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f3cdde2ae0864a08fa3de610f468ac6') in 0.484017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003905 seconds.
+  path: Assets/New Folder/POLYGON city pack/Prefabs/Props/fence c prefab.prefab
+  artifactKey: Guid(6c59ef0028580ac429571adf93ff0a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Prefabs/Props/fence c prefab.prefab using Guid(6c59ef0028580ac429571adf93ff0a16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28e7bd73b40440aae66153a679f7ec64') in 0.203031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/New Folder/Single_detailed_truck/Cubemaps
+  artifactKey: Guid(a94b004aa78af5d4bbd9512140e73924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Single_detailed_truck/Cubemaps using Guid(a94b004aa78af5d4bbd9512140e73924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c71cc3bb684d3be5616541a93428d72f') in 0.087633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/New Folder/POLYGON city pack/Prefabs/Buildings
+  artifactKey: Guid(1fdd0cff7b4f8e84e8bf45601683ea0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Prefabs/Buildings using Guid(1fdd0cff7b4f8e84e8bf45601683ea0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ff3dd67d8157c30f99b0800f378b279') in 0.089518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/New Folder/Standard Assets/Effects
+  artifactKey: Guid(c58783cfade6f554189e0401d1727454) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Standard Assets/Effects using Guid(c58783cfade6f554189e0401d1727454) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccf6315d14152e3a28e53b0e021c0ae0') in 0.069554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower2/Materials
+  artifactKey: Guid(2e44baef09bbdc94aa505b782e262c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower2/Materials using Guid(2e44baef09bbdc94aa505b782e262c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1ba9feda9b611b4c845fb8f0f6035fb') in 0.168964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower1
+  artifactKey: Guid(da43558ab63b2e246a858c50da57b23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower1 using Guid(da43558ab63b2e246a858c50da57b23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d4efe9f86779ef0a39a223134127629') in 0.082630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials
+  artifactKey: Guid(44d32b44bff7b3148b9ad8c005d87fc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/traffic signs FBX/Materials using Guid(44d32b44bff7b3148b9ad8c005d87fc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0902e9cdccaad0b0c2ac14a07738a4f3') in 0.075119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower3/Materials
+  artifactKey: Guid(4634be39e8213194888fae47e162868f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower3/Materials using Guid(4634be39e8213194888fae47e162868f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '754c2a6b846e5fb4541680d110ad5ef4') in 0.149027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005211 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/hedge.fbx
+  artifactKey: Guid(b18688407a41db44eb3a0f085e9b0e9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/hedge.fbx using Guid(b18688407a41db44eb3a0f085e9b0e9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14c28af0bcfbcd05e9d09ce54270fcd2') in 0.237227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/New Folder/school/Prefabs/props/sheet.prefab
+  artifactKey: Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/school/Prefabs/props/sheet.prefab using Guid(9b19a44036ac44243a6c69a62bcfdbdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e21b63c77fdb026bea1edda4bf5a567a') in 0.178083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures
+  artifactKey: Guid(60159876176c36e4d8c61d4a34e97c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures using Guid(60159876176c36e4d8c61d4a34e97c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06c0cef2d5d3b128b6d7b4f225087d25') in 0.042835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038712 seconds.
+  path: Assets/New Folder/ParticleLight/Model
+  artifactKey: Guid(28bab7b789ff53643883c509daebabe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/ParticleLight/Model using Guid(28bab7b789ff53643883c509daebabe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acbced8bc4d1c386ca9bc515d33ce858') in 0.081176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/New Folder/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '966dfed66e95aa95b5031339aeca3855') in 0.397015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002834 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower3/Materials/map8.mat
+  artifactKey: Guid(75101b00fea66f94eade3e8dd6f27b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower3/Materials/map8.mat using Guid(75101b00fea66f94eade3e8dd6f27b3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd97104cf3af9e69aaa4e9c5360fe98b1') in 0.531340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Street_07.png
+  artifactKey: Guid(bd4bd47040e183046b91ea031cd728a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Street_07.png using Guid(bd4bd47040e183046b91ea031cd728a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8698df1aa47eb35c91ca100de585645b') in 0.068696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034404 seconds.
+  path: Assets/New Folder/POLYGON city pack/Materials/Material_meshs/Bus stop pole texture.mat
+  artifactKey: Guid(e96d9e6034aaaaf48907b0c14fce898f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Materials/Material_meshs/Bus stop pole texture.mat using Guid(e96d9e6034aaaaf48907b0c14fce898f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d5dc848174208e9a1502a991be88a66') in 0.051264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/New Folder/POLYGON city pack/Prefabs/traffic signs/parking sign.prefab
+  artifactKey: Guid(e27f1e8036aa32748b6e0aff27468160) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Prefabs/traffic signs/parking sign.prefab using Guid(e27f1e8036aa32748b6e0aff27468160) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd28162ac17520686d0f3a6a51a815fa7') in 0.035043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005545 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Sidewalk_09.fbx
+  artifactKey: Guid(d2be7990437c0e64c9109def30e4153d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Sidewalk_09.fbx using Guid(d2be7990437c0e64c9109def30e4153d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fbbeeb062f40e57a2da5a71d586092d') in 0.086139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/Materials/Glass coke.mat
+  artifactKey: Guid(23c2eb0032c7b9c419ea560119ad5e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/Materials/Glass coke.mat using Guid(23c2eb0032c7b9c419ea560119ad5e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dacc4cf540d0caa51a0c509216245a56') in 0.077343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/New Folder/school/material
+  artifactKey: Guid(87b942742db18d74cadc81763e504ddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/school/material using Guid(87b942742db18d74cadc81763e504ddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '485f863ba16c008f3b79adc2b5f341a4') in 0.063592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/New Folder/school/DemoScene/all_objects1_Profiles
+  artifactKey: Guid(b0062bcf3e6601642b30a501d664127d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/school/DemoScene/all_objects1_Profiles using Guid(b0062bcf3e6601642b30a501d664127d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1df4dd496d4a40290f3fffd10010b940') in 0.048087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Folder/Watch_tower/Tower_A/Prefab
+  artifactKey: Guid(0ed532c2ee4140440bc4fe37e8df46aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Watch_tower/Tower_A/Prefab using Guid(0ed532c2ee4140440bc4fe37e8df46aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bb1d82857a5c6d9f4a7481768e48b3f') in 0.050478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/New Folder/Watch_tower/Tower_A/Tex/Corrugate_NORM.png
+  artifactKey: Guid(90bac6b01eb053d4896412989bc2dc43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Watch_tower/Tower_A/Tex/Corrugate_NORM.png using Guid(90bac6b01eb053d4896412989bc2dc43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fde99c41e544df4d60467fd49703e0a') in 0.088493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/New Folder/POLYGON city pack/Prefabs/Props/Grass mass_prefab.prefab
+  artifactKey: Guid(e53777a03d3be324ab0664ab7ef3d886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Prefabs/Props/Grass mass_prefab.prefab using Guid(e53777a03d3be324ab0664ab7ef3d886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f7c480febfb028dfd6f3896f46ab5c6') in 0.066857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/New Folder/Simple Vehicle Pack/Textures
+  artifactKey: Guid(ab9f03b61f4ea01419168bc069fbb008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Simple Vehicle Pack/Textures using Guid(ab9f03b61f4ea01419168bc069fbb008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2f728f7b70a8626187957b799e973a8') in 0.047051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017250 seconds.
+  path: Assets/New Folder/POLYGON city pack/Materials/color_windows/Windows no light.mat
+  artifactKey: Guid(26df91506bf83b343b8083c5322323ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Materials/color_windows/Windows no light.mat using Guid(26df91506bf83b343b8083c5322323ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b790d35edbf9e75015fbf6220433f5d1') in 0.032254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Folder/TowerPack/Other/Materials
+  artifactKey: Guid(54c6de6a98763c44aa3bf2c8c5db9dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Other/Materials using Guid(54c6de6a98763c44aa3bf2c8c5db9dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1dd57f56fa8235cfe34343cc84eca14') in 0.026047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/New Folder/TowerPack
+  artifactKey: Guid(ae3b92c16d1dbcb46b7ef327cfdaeb6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack using Guid(ae3b92c16d1dbcb46b7ef327cfdaeb6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae469f6b8c2f3f148d22c8aba05b723f') in 0.019347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002205 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower10/Materials/map6.mat
+  artifactKey: Guid(105e67d0ef6bf5a49a026cdabcbef841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower10/Materials/map6.mat using Guid(105e67d0ef6bf5a49a026cdabcbef841) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c37bee1c368163288f557216b4f412a') in 0.041544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007723 seconds.
+  path: Assets/New Folder/Simple Vehicle Pack/Materials/Bus_2.mat
+  artifactKey: Guid(73e805105a361df41b7e14313b517476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Simple Vehicle Pack/Materials/Bus_2.mat using Guid(73e805105a361df41b7e14313b517476) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '908867b991d6e282eb8fd41ed631ef62') in 0.088441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower6/Textures
+  artifactKey: Guid(30fc832542ce744478e76f04eb665204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower6/Textures using Guid(30fc832542ce744478e76f04eb665204) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0fb24878e2b4c770c06c256a66267e4') in 0.015288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/New Folder/Simple Vehicle Pack/Textures/Mobile
+  artifactKey: Guid(370a12a1ae96ba043a3f49ec72a81e30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Simple Vehicle Pack/Textures/Mobile using Guid(370a12a1ae96ba043a3f49ec72a81e30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0f8789201445cc744d83b5d4672aecb') in 0.018880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower2
+  artifactKey: Guid(b6488cbd343696a4f8458d4f175712b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower2 using Guid(b6488cbd343696a4f8458d4f175712b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a1b0bc866b4d681610133c2e6bce466') in 0.025804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/Materials/leafes.mat
+  artifactKey: Guid(144d0d90c4ed5154b83f6fcbd40b4bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/Materials/leafes.mat using Guid(144d0d90c4ed5154b83f6fcbd40b4bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d8c69fa5c967195647b7b65ec746c2d') in 0.039005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/New Folder/Single_detailed_truck
+  artifactKey: Guid(c3b9c0e7730a04e43a1272881e901d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Single_detailed_truck using Guid(c3b9c0e7730a04e43a1272881e901d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6df79b8727cab8a830bad399ae6c9279') in 0.029823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Window_Frames.mat
+  artifactKey: Guid(d3dcf950e61771e46b954da267e3496a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/Buildings_FBX/Materials/Window_Frames.mat using Guid(d3dcf950e61771e46b954da267e3496a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5c80ed63a23860dab7ee1dff6c85b6b') in 0.040705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/New Folder/Statue Bear Rough Bronze/Textures
+  artifactKey: Guid(0e10ac313ee46fd45ac78c4fd05d293d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Statue Bear Rough Bronze/Textures using Guid(0e10ac313ee46fd45ac78c4fd05d293d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '437d135fbb904a984a2117a8d653d243') in 0.020045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Street_21.png
+  artifactKey: Guid(ee38df303c31c87478af52f4821cae02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/ways_FBX/Street_21.png using Guid(ee38df303c31c87478af52f4821cae02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a813f379d6c51bd8bc89e103397e9333') in 0.056191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/New Folder/school/Prefabs/props/a door.prefab
+  artifactKey: Guid(c46afe706fb2cde4883f7afaeaa67a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/school/Prefabs/props/a door.prefab using Guid(c46afe706fb2cde4883f7afaeaa67a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fe5422f57fbfa8fa41b73c053950b0e') in 0.033370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.005.mat
+  artifactKey: Guid(b8434330947acf144b68d583d52e2aaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/POLYGON city pack/Meshes,textures/props_FBX/Materials/stone 1.005.mat using Guid(b8434330947acf144b68d583d52e2aaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c54a167cd4991dabe9e5aad7f1477bd8') in 0.033582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/New Folder/TowerPack/Models/Tower1/Textures/map13.png
+  artifactKey: Guid(2a8c41108689d34489a21cb4823e5210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/TowerPack/Models/Tower1/Textures/map13.png using Guid(2a8c41108689d34489a21cb4823e5210) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39941ddc79f3cc0530d0d08319f9cc2d') in 0.075140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/New Folder/Single_detailed_truck/Textures
+  artifactKey: Guid(be83259253b16ec47958b5420373f9bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Folder/Single_detailed_truck/Textures using Guid(be83259253b16ec47958b5420373f9bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40647a8d5c17e8ebb05aec199ebafbfa') in 0.027452 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007888 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\msyang\Desktop\git\BBANG\BBANG_unity\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.494 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2496ms)
+		BeginReloadAssembly (320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (1906ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3919.
+Memory consumption went from 144.4 MB to 144.4 MB.
+Total: 4.456200 ms (FindLiveObjects: 0.307100 ms CreateObjectMapping: 0.176400 ms MarkObjects: 3.939900 ms  DeleteObjects: 0.031700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
