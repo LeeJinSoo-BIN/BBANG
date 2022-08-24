@@ -37,16 +37,17 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Prefabs\script\control.cs" />
-     <Compile Include="Assets\map_package\download_asset\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
-     <Compile Include="Assets\DamageCircle.cs" />
-     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\Door.cs" />
      <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\evelator_controll.cs" />
-     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
-     <Compile Include="Assets\map_package\download_asset\FurnishedCabin\Scripts\Player\PlayerLook.cs" />
-     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
-     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\pass_on_parent.cs" />
      <Compile Include="Assets\map_package\download_asset\FurnishedCabin\Scripts\MoveableObject.cs" />
+     <Compile Include="Assets\map_package\download_asset\FurnishedCabin\Scripts\Player\PlayerLook.cs" />
+     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\pass_on_parent.cs" />
+     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
+     <Compile Include="Assets\Prefabs\script\DamageCircle.cs" />
      <Compile Include="Assets\map_package\download_asset\ParticleLight\Scripts\UVScroller_C.cs" />
+     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
+     <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\Door.cs" />
+     <Compile Include="Assets\map_package\download_asset\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
+     <Compile Include="Assets\Prefabs\script\weapon.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\map_package\download_asset\ParticleLight\Shader\AdditiveMask.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

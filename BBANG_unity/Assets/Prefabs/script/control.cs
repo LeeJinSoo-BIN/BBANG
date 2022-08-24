@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 public class control : MonoBehaviour
 {
     Animator anim;
@@ -20,6 +21,16 @@ public class control : MonoBehaviour
     private float currentCamerXRotation = 0f;
     public Camera m_Camera;
     public GameObject weapon;
+    public float gunFireDelay;
+    private float currentFireDelay;
+    public ParticleSystem muzzleFlash;
+    public int leftAmmo;
+    public int currentAmmo;
+    public TextMeshProUGUI leftAmmoText;
+    public TextMeshProUGUI currentAmmoText;
+    public GameObject hitEffect;
+    public float weaponRange;
+    private RaycastHit hitInfo;
     private void Awake()
     {
     	rigid = GetComponent<Rigidbody>();
@@ -42,7 +53,7 @@ public class control : MonoBehaviour
         fire = Input.GetMouseButton(0);
         
         run = Input.GetKey(KeyCode.LeftShift);
-        rifle = Input.GetKeyDown("1");        
+        rifle = Input.GetKeyDown("1");
         
     }
     void Move()
@@ -93,8 +104,23 @@ public class control : MonoBehaviour
         
     }
     void Fire(){
-        if(fire){
+        if(pick_rifle && fire && currentFireDelay <= 0 && currentAmmo > 0){
+            currentFireDelay = gunFireDelay;
+            currentAmmo -= 1;
             anim.SetTrigger("fire");
+            muzzleFlash.Play();
+            currentAmmoText.text = currentAmmo.ToString();
+
+
+            if (Physics.Raycast(m_Camera.transform.position, m_Camera.transform.forward, out hitInfo, weaponRange)){
+                
+                var clone = Instantiate(hitEffect, hitInfo.point, Quaternion.LookRotation(hitInfo.normal));
+                Destroy(clone, 2f);
+                
+            }
+        }
+        if (currentFireDelay > 0){
+            currentFireDelay -= Time.deltaTime;
         }
     }
 
