@@ -44,10 +44,10 @@
      <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\DoorAction.cs" />
      <Compile Include="Assets\Prefabs\script\DamageCircle.cs" />
      <Compile Include="Assets\map_package\download_asset\ParticleLight\Scripts\UVScroller_C.cs" />
+     <Compile Include="Assets\Prefabs\script\weapon.cs" />
      <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\Fix_elevator_fall.cs" />
      <Compile Include="Assets\map_package\download_asset\Enviroment\enviroment\Office building\scripts\Door.cs" />
      <Compile Include="Assets\map_package\download_asset\FurnishedCabin\Scripts\Player\PlayerMove.cs" />
-     <Compile Include="Assets\Prefabs\script\weapon.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\map_package\download_asset\ParticleLight\Shader\AdditiveMask.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
